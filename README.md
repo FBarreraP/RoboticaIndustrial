@@ -105,35 +105,35 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td rowspan="2">Primer (20%)</td>
 		<td>Parcial</td>
 		<td>10%</td>
-		<td>27/03/2024</td>
+		<td>28/03/2024</td>
 		<td rowspan="7">Presencial</td>
 	</tr>
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>10%</td>
-		<td>14/02/2024<br>20/02/2024<br>21/02/2024</td>
+		<td>14/02/2024<br>21/02/2024<br>21/02/2024</td>
 	</tr>
 	<tr>
 		<td rowspan="2">Segundo (30%)</td>
 		<td>Parcial</td>
 		<td>15%</td>
-		<td>09/04/2024</td>
+		<td>10/04/2024</td>
 	</tr>
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>15%</td>
-		<td>20/03/2024<br>02/04/2024<br>03/04/2024</td>
+		<td>03/04/2024<br>03/04/2024</td>
 	</tr>
 	<tr>
 		<td rowspan="3">Tercer (50%)</td>
 		<td>Examen final</td>
 		<td>15%</td>
-		<td>21/05/2024</td>
+		<td>22/05/2024</td>
 	</tr>
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>15%</td>
-		<td>07/05/2024<br>08/05/2024<br>14/05/2024<br>15/05/2024</td>
+		<td>24/05/2024<br>08/05/2024<br>08/05/2024<br>15/05/2024<br>15/05/2024</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
@@ -190,11 +190,10 @@ Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
 	<li> PIC o Arduino</li>
 	<img src="" alt="PIC18F4550" caption="Hola"/>
     <img src="" alt="Arduino" caption="Hola"/>
-	<li> Plataforma diferencial</li>
-    <img src="https://down-id.img.susercontent.com/file/4707898d5ce46da11955f0269f3f5468" alt="plataforma diferencial" caption="Hola"/>
-	 <li> Motoreductor DC</li>
-    <img src="https://static.wixstatic.com/media/d96bda_8b8831ef4e0541c1839ac31ecdd8241e~mv2.png/v1/fill/w_480,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d96bda_8b8831ef4e0541c1839ac31ecdd8241e~mv2.png" alt="motoreductor" caption="Hola"/>
-	<img src="https://3dbots.co/wp-content/uploads/2023/05/LUXURY-TIRE.jpg" alt="motoreductor" caption="Hola"/>
+	<li> Brazo robótico 5 GDL</li>
+	<img src="https://yorobotics.co/wp-content/uploads/2022/10/BRAZO-ROBOTICO-V2.0-MEJORADO.jpg" alt="brazo robótico 5 GDL" caption="Hola"/>
+	<li> Servomotores SG90 o MG90</li>
+    <img src="https://cdn.shopify.com/s/files/1/0069/0028/5529/files/Servos_fb55bae1-aef3-4bd6-bf0f-f2eff21c849a_large.jpg?v=1565803072" alt="servomotores" caption="Hola"/>
     <li> Fuentes de alimentación</li>
     <img src="https://cdnx.jumpseller.com/mactornica/image/9804941/1.jpg?1653696069" alt="Fuente AMS1117" caption="Hola"/>
     <li> Multimetro</li>
@@ -205,28 +204,23 @@ Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
     <img src="https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/p/o/potenci_metro_linear_-_1m_-_l20_2_.jpg" alt="potenciometro" caption="Hola"/>
     <li> Fotoresistencia</li>
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZMUgeeo_cD2X8ee0ldjF5oU2SK4IW-KIQ3qScgyX5VK-_nQKHIE7Nib3CWr0sns62JKbOmdY8DN4W7E6B6e69yUVtN9VqbfuQeoyVlv2DGlseWsc8h-ZgHh7Zn-HDrUTszr-FQdiEFW7nGhOPSjDTN6egELeqlyI8VwM_8mrX0z7WUQcaFnW_AAHh5Q/s499/ldr-5mm-fvml.jpg" alt="fotoresistencia" caption="Hola"/>
-    <li> CNY70</li>
-    <img src="https://sumador.com/cdn/shop/products/SensorreflectivoCNY70-min_1_2048x2048.jpg?v=1589119003" alt="cny70" caption="Hola"/>
     <li> Display LCD 16x2 o 16x4 o 20x2 o 20x4</li>
     <img src="https://cdn.awsli.com.br/400x400/468/468162/produto/19414377c73c1c655d.jpg" alt="lcd 16x2" caption="Hola"/>
-    <li> Sensor ultrasónico HC-SR04</li>
-    <img src="https://ferretronica.com/cdn/shop/products/sensor_ultrasonico_HC_-_SR04_de_distancia_ultrasonido_hc-sr04_ferretronica_x700.jpg?v=1577502249" alt="HC-SR04" caption="Hola"/>
-    <li> Puente H (L298/L293)</li>
-    <img src="https://www.ardobot.co/pub/media/catalog/product/cache/2641e33458f1ae4a696b47b0da974426/l/2/l2998neco.jpg" alt="L298" caption="Hola"/>
-    <li> Encoder incremental</li>
-    <img src="https://http2.mlstatic.com/D_NQ_NP_731207-MEC31981852736_082019-O.webp" alt="encoder arduino" caption="Hola"/>
 </ul>
 
 <h3>Bibliografía </h3>
 
 <ul>
-    <li>A. Barrientos, L. F. Peñin, C. Balaguer, and R. Aracil, Fundamentos de Robótica. 1997.</li>
-    <li>A. Ollero, “Robótica. Manipuladores y robots móviles,” Robotica Manipuladores y robots moviles. 2001.</li>
-    <li>J. J. Craig, Introduction to Modern Robotics: Mechanics, Planning, and Control. 2004.</li>
-    <li>. Siegwart, I. R. Nourbakhsh, and D. Scaramuzza, Introduction to Autonomous Mobile Robots. 2011.</li>
-    <li>S. K. Saha, Introducción a la Robótica. 1998.</li>
-    <li>F. Zhang, J. Leitner, M. Milford, B. Upcroft, and P. Corke, “Towards vision-based deep reinforcement learning for robotic motion control,” in Australasian Conference on Robotics and Automation, ACRA, 2015.</li>
-    <li>M. Calisti, G. Picardi, and C. Laschi, “Fundamentals of soft robot locomotion,” Journal of the Royal Society Interface. 2017.</li>
-    <li>B. S. Peters, P. R. Armijo, C. Krause, S. A. Choudhury, and D. Oleynikov, “Review of emerging surgical robotic technology,” Surgical Endoscopy. 2018.</li>
-    <li>R.-C. Weber, M. Bellenberg, and D. Schwarzenberger, “Robotino Manual,” © Festo Didact. GmbH Co, 2010.</li>
+    <li>Peter Corke. Robotics, Vision and Control: Fundamental Algorithms in MATLAB. 1st. Springer Publishing Company, Incorporated, 2013.</li>
+    <li>John J. Craig. Introduction to Robotics: Mechanics and Control. 2nd. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc., 1989.</li>
+    <li>Antonio Barrientos Cruz. Fundamentos de robótica. 2nd. McGraw-Hill, 2007.</li>
+    <li>Mark W. Spong. Robot Dynamics and Control. 1st. New York, NY, USA: John Wiley & Sons, Inc., 1989.</li>
+    <li>Poole, H. H. (2012). Fundamentals of robotics engineering. Springer Science & Business Media.</li>
+    <li>Siciliano, B., Sciavicco, L., Villani, L., & Oriolo, G. (2010). Robotics: modelling, planning and control. Springer Science & Business Media.</li>
+    <li>Jazar, R. N. (2010). Theory of applied robotics: kinematics, dynamics, and control. Springer Science & Business Media.</li>
+    <li>Peter Corke. Robotics toolbox for Matlab, release 9.10. 1st. 2015.</li>
+    <li>Martinez, A., Fernandez E., Leaning ROS for robotics programming, PackT Publishing.</li>
+    <li>O’Kane J., A Gentle Introduction to ROS.</li>
+    <li>http://petercorke.com/Robotics_Toolbox.html</li>
+    <li>Kim, S., Laschi, C., & Trimmer, B. (2013). Soft robotics: a bioinspired evolution in robotics. Trends in biotechnology, 31(5), 287-294.</li>
 </ul>
