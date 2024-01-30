@@ -20,19 +20,19 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>31/01/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación de la materia<br>Morfología de los robots y diagramas cinemáticos</td>
+		<td>31/01/2024</td> <td>2<br>2</td> <td>1<br>2</td> <td>1</td> <td>Presentación de la materia<br>Morfología de los robots y diagramas cinemáticos</td>
 	</tr>
 	<tr>
-		<td>07/02/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Traslación y rotación de un sistema coordenado<br>Matriz de transformación homogénea</td>
+		<td>07/02/2024</td> <td>2<br>2</td> <td>3<br>4</td> <td>2</td> <td>Traslación y rotación de un sistema coordenado<br>Matriz de transformación homogénea</td>
 	</tr>
 	<tr>
-		<td>14/02/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Máquina virtual UR Sim (UR Academy) y Simulación Matlab – PIC (Proteus)<br>Desarrollo de Laboratorio</td>
+		<td>14/02/2024</td> <td>2<br>2</td> <td>5<br>6</td> <td>3</td> <td>Máquina virtual UR Sim (UR Academy) y Simulación Matlab – PIC (Proteus)<br>Desarrollo de Laboratorio</td>
 	</tr>
     <tr>
-		<td>21/02/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
+		<td>21/02/2024</td> <td>2<br>2</td> <td>7<br>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
 	</tr>
 	<tr>
-		<td>28/03/2024</td> <td>2</td> <td>9</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
+		<td>28/03/2024</td> <td>2<br>2</td> <td>9<br>10</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
 	</tr><!--semana de parciales del primer corte--><!--semana de registro de notas del primer corte-->
 
 </table>
@@ -44,41 +44,23 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>05/03/2024</td> <td>2</td> <td>11</td> <td>6</td> <td>Propuesta de proyecto</td>
+		<td>06/03/2024</td> <td>2<br>2</td> <td>11<br>12</td> <td>6</td> <td>Propuesta de proyecto<br>GUI Matlab</td>
 	</tr>
 	<tr>
-		<td>06/03/2024</td> <td>2</td> <td>12</td> <td>6</td> <td>Comunicación serial UART (Bluetooth – PIC (Proteus))</td>
+		<td>13/03/2024</td> <td>2<br>2</td> <td>13<br>14</td> <td>7</td> <td>Introducción a la cinemática directa<br>Paso 1 DH (asignación de sistemas coordenados)</td>
 	</tr>
 	<tr>
-		<td>12/03/2024</td> <td>2</td> <td>13</td> <td>7</td> <td>Encoder (absoluto y relativo)</td>
-	</tr>
-	<tr>
-		<td>13/03/2024</td> <td>2</td> <td>14</td> <td>7</td> <td>Análisis de recorrido</td>
-	</tr>
-	<tr>
-		<td>19/03/2024</td> <td>2</td> <td>15</td> <td>8</td> <td>COPPELIA SIM</td>
-	</tr>
-    <tr>
-		<td>20/03/2024</td> <td>2</td> <td>16</td> <td>8</td> <td>Desarrollo de Laboratorio</td>
-	</tr>
-    <tr>
-		<td>26/03/2024</td> <td></td> <td></td> <td></td> <td>SEMANA SANTA</td>
+		<td>20/03/2024</td> <td>2<br>2</td> <td>15<br>16</td> <td>8</td> <td>Paso 2 DH (tabla DH)<br>Paso 3 DH (matriz MTH (Peter Corke))</td>
 	</tr>
     <tr>
 		<td>27/03/2024</td> <td></td> <td></td> <td></td> <td>SEMANA SANTA</td>
 	</tr>
     <tr>
-		<td>02/04/2024</td> <td>2</td> <td>17</td> <td>9</td> <td>Desarrollo de Laboratorio</td>
+		<td>03/04/2024</td> <td>2<br>2</td> <td>17<br>18</td> <td>9</td> <td>Desarrollo de Laboratorio</td>
 	</tr>
     <tr>
-		<td>03/04/2024</td> <td>2</td> <td>18</td> <td>9</td> <td>Desarrollo de Laboratorio</td>
-	</tr>
-    <tr>
-		<td>09/04/2024</td> <td>2</td> <td>19</td> <td>10</td> <td>Parcial segundo corte</td>
-	</tr><!--semana de parciales del segundo corte-->
-	<tr>
-		<td>10/04/2024</td> <td>2</td> <td>20</td> <td>10</td> <td>Retroalimentación del parcial segundo corte y entrega de notas segundo corte</td>
-	</tr><!--semana de registro de notas del segundo corte-->
+		<td>10/04/2024</td> <td>2<br>2</td> <td>19<br>20</td> <td>10</td> <td>Parcial segundo corte<br>Retroalimentación del parcial segundo corte y entrega de notas segundo corte</td>
+	</tr><!--semana de parciales del segundo corte--><!--semana de registro de notas del segundo corte-->
 
 </table>
 
@@ -89,25 +71,16 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>16/04/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Avance de proyecto</td>
+		<td>16/04/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Avance de proyecto<br></td>
 	</tr>
 	<tr>
-		<td>17/04/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Sensor infrarrojo, ultrasonido y sensor de color</td>
+		<td>17/04/2024</td> <td>2</td> <td>22</td> <td>11</td> <td><br></td>
 	</tr>
 	<tr>
-		<td>23/04/2024</td> <td>2</td> <td>23</td> <td>12</td> <td>CAD (SolidWorks)</td>
-	</tr>
-	<tr>
-		<td>24/04/2024</td> <td>2</td> <td>24</td> <td>12</td> <td>Plataforma omnidireccional 3 ruedas</td>
+		<td>24/04/2024</td> <td>2</td> <td>24</td> <td>12</td> <td><br></td>
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>30/04/2024</td> <td>2</td> <td>25</td> <td>13</td> <td>COPPELIA SIM</td>
-	</tr>
-    <tr>
-		<td>01/05/2024</td> <td>2</td> <td>26</td> <td>13</td> <td>FESTIVO</td>
-	</tr>
-    <tr>
-		<td>07/05/2024</td> <td>2</td> <td>27</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
+		<td>30/04/2024</td> <td>2</td> <td>25</td> <td>13</td> <td><br></td>
 	</tr>
     <tr>
 		<td>08/05/2024</td> <td>2</td> <td>28</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
