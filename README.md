@@ -20,35 +20,20 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>30/01/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación de la materia</td>
-	</tr>
-    <tr>
-		<td>31/01/2024</td> <td>2</td> <td>2</td> <td>1</td> <td>MCUA (velocidad tangencial y angular)</td>
+		<td>31/01/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación de la materia<br>Morfología de los robots y diagramas cinemáticos</td>
 	</tr>
 	<tr>
-		<td>06/02/2024</td> <td>2</td> <td>3</td> <td>2</td> <td>Puente H (simulación)</td>
+		<td>07/02/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Traslación y rotación de un sistema coordenado<br>Matriz de transformación homogénea</td>
 	</tr>
 	<tr>
-		<td>07/02/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Cinemática robot diferencial</td>
-	</tr>
-	<tr>
-		<td>13/02/2024</td> <td>2</td> <td>5</td> <td>3</td> <td>Análisis de recorrido por transiciones</td>
-	</tr>
-	<tr>
-		<td>14/02/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Desarrollo de Laboratorio</td>
-	</tr>
-    <tr>
-		<td>20/02/2024</td> <td>2</td> <td>7</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
+		<td>14/02/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Máquina virtual UR Sim (UR Academy) y Simulación Matlab – PIC (Proteus)<br>Desarrollo de Laboratorio</td>
 	</tr>
     <tr>
 		<td>21/02/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
 	</tr>
 	<tr>
-		<td>27/03/2024</td> <td>2</td> <td>9</td> <td>5</td> <td>Parcial primer corte</td>
-	</tr><!--semana de parciales del primer corte-->
-	<tr>
-		<td>28/03/2024</td> <td>2</td> <td>10</td> <td>5</td> <td>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
-	</tr><!--semana de registro de notas del primer corte-->
+		<td>28/03/2024</td> <td>2</td> <td>9</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
+	</tr><!--semana de parciales del primer corte--><!--semana de registro de notas del primer corte-->
 
 </table>
 
