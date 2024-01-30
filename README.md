@@ -71,32 +71,23 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>16/04/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Avance de proyecto<br></td>
+		<td>17/04/2024</td> <td>2<br>2</td> <td>21<br>22</td> <td>11</td> <td>Avance de proyecto<br>Introducción a la cinemática Inversa y 2R</td>
 	</tr>
 	<tr>
-		<td>17/04/2024</td> <td>2</td> <td>22</td> <td>11</td> <td><br></td>
+		<td>24/04/2024</td> <td>2<br>2</td> <td>23<br>24</td> <td>12</td> <td>Cinemática Inversa 3R y trayectorias del robot 3R<br>Desarrollo de Laboratorio y proyecto</td>
 	</tr>
-	<tr>
-		<td>24/04/2024</td> <td>2</td> <td>24</td> <td>12</td> <td><br></td>
+    <tr>
+		<td>01/05/2024</td> <td>2<br>2</td> <td>25<br>26</td> <td>13</td> <td>FESTIVO</td>
+	</tr>
+    <tr>
+		<td>08/05/2024</td> <td>2<br>2</td> <td>27<br>28</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
+	</tr>
+    <tr>
+		<td>15/05/2024</td> <td>2<br>2</td> <td>29<br>30</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
+	</tr>
+    <tr>
+		<td>22/05/2024</td> <td>2<br>2</td> <td>31<br>32</td> <td>16</td> <td>Examen final<br>Entrega de proyecto</td>
 	</tr><!--Finalización de clases-->
-	<tr>
-		<td>30/04/2024</td> <td>2</td> <td>25</td> <td>13</td> <td><br></td>
-	</tr>
-    <tr>
-		<td>08/05/2024</td> <td>2</td> <td>28</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>14/05/2024</td> <td>2</td> <td>29</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>15/05/2024</td> <td>2</td> <td>30</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>21/05/2024</td> <td>2</td> <td>31</td> <td>16</td> <td>Examen final</td>
-	</tr>
-	<tr>
-		<td>22/05/2024</td> <td>2</td> <td>32</td> <td>16</td> <td>Entrega de proyecto</td>
-	</tr>
 
 </table>
 
