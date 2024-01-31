@@ -62,15 +62,21 @@ Fuente: https://www.kramirez.net/Robotica/Material/Presentaciones/CinematicaInve
 
 Es un robot PPP, el cual tiene tres movimientos lineales y perpendiculares entre sí, en los tres ejes cartesianos X, Y y Z. Este tipo de robot se emplea en trabajos de carga, desplazamiento y descarga de materiales, en aplicaciones de sellado, ensamblaje, manejo de máquinas-herramientas, y soldadura al arco.
 
-<img src="" alt="cartesiano" caption="Hola"/>
-Fuente: 
+<img src="https://global.yamaha-motor.com/business/robot_es/xyx/img/lineup_002.jpg" alt="cartesiano" caption="Hola"/>
+Fuente: https://global.yamaha-motor.com/business/robot_es/xyx/img/lineup_002.jpg
+
+<img src="https://img.machinedesign.com/files/base/ebm/machinedesign/image/2016/12/machinedesign_com_sites_machinedesign.com_files_uploads_2016_10_12_1216_MD_DiffBetw_Robots_F2.png?auto=format,compress&w=1050&h=590&cache=0.9190536351852236&fit=max" alt="cartesiano" caption="Hola"/>
+Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-the-difference-between-industrial-robots
 
 <h4>Robot cilíndrico</h4>
 
 Es un robot RPP, que cuenta con una articulación rotacional y dos prismáticas. Son utilizados en operaciones de ensamblaje, manejo de máquinas-herramientas, soldaduras por puntos, y manejo, vaciado y moldeado de metales
 
 <img src="" alt="cilíndrico" caption="Hola"/>
-Fuente: 
+Fuente:
+
+<img src="https://allonrobots.com/wp-content/uploads/2021/03/cylindrical.gif" alt="cilíndrico" caption="Hola"/>
+Fuente: https://allonrobots.com/wp-content/uploads/2021/03/cylindrical.gif
 
 <h4>Robot esférico</h4>
 
@@ -90,8 +96,8 @@ Fuente: https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254
 
 Es un robot RRR, que cuenta con todas las articulaciones rotacionales. Estos robots tienen un gran espacio de trabajo y son muy populares, pero su control es mucho más complejo que el robot cartesiano, debido a su análisis dinámico. Se emplean en operaciones de ensamblaje, vaciado de metales, frezado, soldadura a gas, soldadura al arco, y pintura con spray.
 
-<img src="" alt="angular" caption="Hola"/>
-Fuente: 
+<img src="https://www.kellertechnology.com/wp-content/uploads/2016/10/Industrial-Robots-Main-Image.jpg" alt="angular" caption="Hola"/>
+Fuente: https://www.kellertechnology.com/wp-content/uploads/2016/10/Industrial-Robots-Main-Image.jpg
 
 
 
