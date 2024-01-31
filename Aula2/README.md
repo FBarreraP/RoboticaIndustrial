@@ -83,8 +83,8 @@ Fuente:
 
 Es un robot RRP, que combina dos articulaciones rotacionales y una prismática. Se utilizan en trabajos de carga, desplazamiento y descarga de materiales, en aplicaciones de sellado, ensamblaje, y manejo de máquinas-herramientas.  
 
-<img src="" alt="SCARA" caption="Hola"/>
-Fuente: 
+<img src="https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254f20303fa56589d46315b0/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=t3_04_690x460" alt="SCARA" caption="Hola"/>
+Fuente: https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254f20303fa56589d46315b0/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=t3_04_690x460
 
 <h4>Robot antropomórfico o angular</h4>
 
