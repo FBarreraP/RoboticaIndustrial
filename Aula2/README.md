@@ -72,8 +72,8 @@ Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-th
 
 Es un robot RPP, que cuenta con una articulación rotacional y dos prismáticas. Son utilizados en operaciones de ensamblaje, manejo de máquinas-herramientas, soldaduras por puntos, y manejo, vaciado y moldeado de metales
 
-<img src="" alt="cilíndrico" caption="Hola"/>
-Fuente:
+<img src="https://wobit.com.pl/download/images/roboty-tower-75.jpg" alt="cilíndrico" caption="Hola"/>
+Fuente: https://wobit.com.pl/en/produkt/10753/roboty-przemyslowe-tower/robot-tower-tr300/
 
 <img src="https://img.machinedesign.com/files/base/ebm/machinedesign/image/2016/12/machinedesign_com_sites_machinedesign.com_files_uploads_2016_10_12_1216_MD_DiffBetw_Robots_F3.png?auto=format,compress&w=1050&h=590&cache=0.11233714324886068&fit=max" alt="cilíndrico" caption="Hola"/>
 Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-the-difference-between-industrial-robots
@@ -82,8 +82,7 @@ Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-th
 
 Es un robot RRP, el cual tiene dos articulaciones rotacionales y una prismática; aplicado en máquinas-herramientas, soldaduras por puntos, vaciado de metales, frezado, soldadura a gas, y soldadura al arco.
 
-<img src="" alt="esférico" caption="Hola"/>
-Fuente:
+![esférico](image-10.png)
 
 <img src="https://img.machinedesign.com/files/base/ebm/machinedesign/image/2016/12/machinedesign_com_sites_machinedesign.com_files_uploads_2016_10_12_1216_MD_DiffBetw_Robots_F4.png?auto=format,compress&w=1050&h=590&cache=0.35432247360695657&fit=max" alt="esférico" caption="Hola"/>
 Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-the-difference-between-industrial-robots
@@ -95,8 +94,7 @@ Es un robot RRP, que combina dos articulaciones rotacionales y una prismática. 
 <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254f20303fa56589d46315b0/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=t3_04_690x460" alt="SCARA" caption="Hola"/>
 Fuente: https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254f20303fa56589d46315b0/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=t3_04_690x460
 
-<img src="" alt="" caption="Hola"/>
-Fuente:
+![SCARA](image-11.png)
 
 <h4>Robot antropomórfico o angular</h4>
 
@@ -105,5 +103,5 @@ Es un robot RRR, que cuenta con todas las articulaciones rotacionales. Estos rob
 <img src="https://www.kellertechnology.com/wp-content/uploads/2016/10/Industrial-Robots-Main-Image.jpg" alt="angular" caption="Hola"/>
 Fuente: https://www.kellertechnology.com/wp-content/uploads/2016/10/Industrial-Robots-Main-Image.jpg
 
-<img src="" alt="" caption="Hola"/>
-Fuente:
+<img src="https://mecademic.com/wp-content/uploads/2023/04/robot-workspace.png" alt="angular" caption="Hola"/>
+Fuente: https://mecademic.com/wp-content/uploads/2023/04/robot-workspace.png
