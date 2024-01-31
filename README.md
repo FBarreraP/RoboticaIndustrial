@@ -133,7 +133,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>15%</td>
-		<td>24/05/2024<br>08/05/2024<br>08/05/2024<br>15/05/2024<br>15/05/2024</td>
+		<td>24/04/2024<br>08/05/2024<br>08/05/2024<br>15/05/2024<br>15/05/2024</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
