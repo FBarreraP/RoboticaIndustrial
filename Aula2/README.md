@@ -75,15 +75,18 @@ Es un robot RPP, que cuenta con una articulación rotacional y dos prismáticas.
 <img src="" alt="cilíndrico" caption="Hola"/>
 Fuente:
 
-<img src="https://allonrobots.com/wp-content/uploads/2021/03/cylindrical.gif" alt="cilíndrico" caption="Hola"/>
-Fuente: https://allonrobots.com/wp-content/uploads/2021/03/cylindrical.gif
+<img src="https://img.machinedesign.com/files/base/ebm/machinedesign/image/2016/12/machinedesign_com_sites_machinedesign.com_files_uploads_2016_10_12_1216_MD_DiffBetw_Robots_F3.png?auto=format,compress&w=1050&h=590&cache=0.11233714324886068&fit=max" alt="cilíndrico" caption="Hola"/>
+Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-the-difference-between-industrial-robots
 
 <h4>Robot esférico</h4>
 
 Es un robot RRP, el cual tiene dos articulaciones rotacionales y una prismática; aplicado en máquinas-herramientas, soldaduras por puntos, vaciado de metales, frezado, soldadura a gas, y soldadura al arco.
 
 <img src="" alt="esférico" caption="Hola"/>
-Fuente: 
+Fuente:
+
+<img src="https://img.machinedesign.com/files/base/ebm/machinedesign/image/2016/12/machinedesign_com_sites_machinedesign.com_files_uploads_2016_10_12_1216_MD_DiffBetw_Robots_F4.png?auto=format,compress&w=1050&h=590&cache=0.35432247360695657&fit=max" alt="esférico" caption="Hola"/>
+Fuente: https://www.machinedesign.com/markets/robotics/article/21835000/whats-the-difference-between-industrial-robots
 
 <h4>Robot SCARA</h4>
 
@@ -92,14 +95,15 @@ Es un robot RRP, que combina dos articulaciones rotacionales y una prismática. 
 <img src="https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254f20303fa56589d46315b0/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=t3_04_690x460" alt="SCARA" caption="Hola"/>
 Fuente: https://mediaserver.goepson.com/ImConvServlet/imconv/b2d9a42135880e61254f20303fa56589d46315b0/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=t3_04_690x460
 
+<img src="" alt="" caption="Hola"/>
+Fuente:
+
 <h4>Robot antropomórfico o angular</h4>
 
 Es un robot RRR, que cuenta con todas las articulaciones rotacionales. Estos robots tienen un gran espacio de trabajo y son muy populares, pero su control es mucho más complejo que el robot cartesiano, debido a su análisis dinámico. Se emplean en operaciones de ensamblaje, vaciado de metales, frezado, soldadura a gas, soldadura al arco, y pintura con spray.
 
 <img src="https://www.kellertechnology.com/wp-content/uploads/2016/10/Industrial-Robots-Main-Image.jpg" alt="angular" caption="Hola"/>
 Fuente: https://www.kellertechnology.com/wp-content/uploads/2016/10/Industrial-Robots-Main-Image.jpg
-
-
 
 <img src="" alt="" caption="Hola"/>
 Fuente:
