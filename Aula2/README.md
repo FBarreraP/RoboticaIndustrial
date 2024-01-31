@@ -62,21 +62,36 @@ Fuente: https://www.kramirez.net/Robotica/Material/Presentaciones/CinematicaInve
 
 Es un robot PPP, el cual tiene tres movimientos lineales y perpendiculares entre sí, en los tres ejes cartesianos X, Y y Z. Este tipo de robot se emplea en trabajos de carga, desplazamiento y descarga de materiales, en aplicaciones de sellado, ensamblaje, manejo de máquinas-herramientas, y soldadura al arco.
 
+<img src="" alt="cartesiano" caption="Hola"/>
+Fuente: 
+
 <h4>Robot cilíndrico</h4>
 
 Es un robot RPP, que cuenta con una articulación rotacional y dos prismáticas. Son utilizados en operaciones de ensamblaje, manejo de máquinas-herramientas, soldaduras por puntos, y manejo, vaciado y moldeado de metales
+
+<img src="" alt="cilíndrico" caption="Hola"/>
+Fuente: 
 
 <h4>Robot esférico</h4>
 
 Es un robot RRP, el cual tiene dos articulaciones rotacionales y una prismática; aplicado en máquinas-herramientas, soldaduras por puntos, vaciado de metales, frezado, soldadura a gas, y soldadura al arco.
 
+<img src="" alt="esférico" caption="Hola"/>
+Fuente: 
+
 <h4>Robot SCARA</h4>
 
 Es un robot RRP, que combina dos articulaciones rotacionales y una prismática. Se utilizan en trabajos de carga, desplazamiento y descarga de materiales, en aplicaciones de sellado, ensamblaje, y manejo de máquinas-herramientas.  
 
+<img src="" alt="SCARA" caption="Hola"/>
+Fuente: 
+
 <h4>Robot antropomórfico o angular</h4>
 
 Es un robot RRR, que cuenta con todas las articulaciones rotacionales. Estos robots tienen un gran espacio de trabajo y son muy populares, pero su control es mucho más complejo que el robot cartesiano, debido a su análisis dinámico. Se emplean en operaciones de ensamblaje, vaciado de metales, frezado, soldadura a gas, soldadura al arco, y pintura con spray.
+
+<img src="" alt="angular" caption="Hola"/>
+Fuente: 
 
 
 
