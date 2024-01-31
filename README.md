@@ -171,6 +171,8 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 
 <h3>MÉTODOS DE EVALUACIÓN ✍️</h3>
 
+<h4>5BM</h4>
+
 <table>
 	<tr>
 		<td>Corte</td>
@@ -212,6 +214,57 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Quices y/o laboratorio</td>
 		<td>15%</td>
 		<td>24/04/2024<br>08/05/2024<br>08/05/2024<br>15/05/2024<br>15/05/2024</td>
+	</tr>
+    <tr>
+		<td>Proyecto</td>
+		<td>20%</td>
+		<td>22/05/2024</td>
+	</tr>
+</table>
+
+<h4>5AM</h4>
+
+<table>
+	<tr>
+		<td>Corte</td>
+		<td>Actividad</td>
+		<td>Porcentaje 💯</td>
+		<td>Fecha</td>
+		<td>Metodología</td>
+	</tr>
+	<tr>
+		<td rowspan="2">Primer (20%)</td>
+		<td>Parcial</td>
+		<td>10%</td>
+		<td>29/02/2024</td>
+		<td rowspan="7">Presencial</td>
+	</tr>
+	<tr>
+		<td>Quices y/o laboratorio</td>
+		<td>10%</td>
+		<td>15/02/2024<br>22/02/2024<br>22/02/2024</td>
+	</tr>
+	<tr>
+		<td rowspan="2">Segundo (30%)</td>
+		<td>Parcial</td>
+		<td>15%</td>
+		<td>11/04/2024</td>
+	</tr>
+	<tr>
+		<td>Quices y/o laboratorio</td>
+		<td>15%</td>
+		<td>04/04/2024<br>04/04/2024</td>
+	</tr>
+	<tr>
+		<td rowspan="3">Tercer (50%)</td>
+		<td>Examen final</td>
+		<td>15%</td>
+		<td>23/05/2024</td>
+	</tr>
+	<tr>
+		<td>Quices y/o laboratorio</td>
+		<td>15%</td>
+		<td>25/04/2024<br>09/05/2024<br>09/05/2024<br>16/05/2024<br>16/05/2024</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
