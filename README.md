@@ -32,7 +32,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>21/02/2024</td> <td>2<br>2</td> <td>7<br>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
 	</tr>
 	<tr>
-		<td>28/03/2024</td> <td>2<br>2</td> <td>9<br>10</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
+		<td>28/02/2024</td> <td>2<br>2</td> <td>9<br>10</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
 	</tr><!--semana de parciales del primer corte--><!--semana de registro de notas del primer corte-->
 
 </table>
