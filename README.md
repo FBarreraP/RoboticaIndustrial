@@ -155,7 +155,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>25/04/2024</td> <td>2<br>2</td> <td>23<br>24</td> <td>12</td> <td>Cinemática Inversa 3R y trayectorias del robot 3R<br>Desarrollo de Laboratorio y proyecto</td>
 	</tr>
     <tr>
-		<td>02/05/2024</td> <td>2<br>2</td> <td>25<br>26</td> <td>13</td> <td>FESTIVO</td>
+		<td>02/05/2024</td> <td>2<br>2</td> <td>25<br>26</td> <td>13</td> <td>Desarrollo de Laboratorio y proyecto</td>
 	</tr>
     <tr>
 		<td>09/05/2024</td> <td>2<br>2</td> <td>27<br>28</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
