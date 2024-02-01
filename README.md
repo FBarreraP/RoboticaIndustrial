@@ -269,7 +269,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
     <tr>
 		<td>Proyecto</td>
 		<td>20%</td>
-		<td>22/05/2024</td>
+		<td>23/05/2024</td>
 	</tr>
 </table>
 
