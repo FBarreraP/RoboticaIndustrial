@@ -76,12 +76,35 @@ $$
 \end{bmatrix}
 $$
 
-
 Calcular el vector r’xyz resultante de trasladar el vector 𝑟_𝑥𝑦𝑧 (4,4,11) las coordenadas 𝑝_𝑥𝑦𝑧 (6,−3,8)
 
 ![Traslación2](image-3.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
+
+$$
+\begin{bmatrix}
+{𝑟}'_𝑥\\ 
+{𝑟}'_𝑦\\ 
+{𝑟}'_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 𝑝_𝑥\\ 
+0 & 1 & 0 & 𝑝_𝑦\\ 
+0 & 0 & 0 & 𝑝_𝑧\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+𝑟_𝑢\\ 
+𝑟_𝑣\\ 
+𝑟_𝑤\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+𝑟_𝑢+𝑝_𝑥\\ 
+𝑟_𝑣+𝑝_𝑦\\ 
+𝑟_𝑤+𝑝_𝑧\\ 
+1
+\end{bmatrix}
+$$
 
 <h3>Rotación (MTH)</h3>
 
