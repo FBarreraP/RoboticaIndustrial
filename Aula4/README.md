@@ -183,15 +183,84 @@ $$
 
 <h3>Rotación y traslación (MTH)</h3>
 
+La traslación y rotación no son conmutativas, por tanto, no es lo mismo rotar y trasladar que trasladar y rotar.
+
+![Rotar-Trasladar](image-5.png)
+
+Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
+
 <h3>1. Rotación y 2. traslación (MTH)</h3>
+
+En la figura, el sistema OUVW ha sido girado 90° alrededor del eje X y posteriormente trasladado um vector 𝑝(8,−4,12) con respecto al sistema OXYZ. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 con coordenadas 𝑟_(𝑢^′ 𝑣^′ 𝑤^′ ) (−3,4,−11)
+
+![Rotar y trasladar](image-6.png)
+
+Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
+
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 𝑝_𝑥\\ 
+0 & cosθ & -sinθ & 𝑝_𝑦\\ 
+0 & sinθ & cosθ & 𝑝_𝑧\\ 
+0 & 0 & 0 & 
+\end{bmatrix} \cdot \begin{bmatrix}
+𝑟_𝑢\\ 
+𝑟_𝑣\\ 
+𝑟_𝑤\\ 
+1
+\end{bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 8\\ 
+0 & 0 & -1 & -4\\ 
+0 & 1 & 0 & 12\\ 
+0 & 0 & 0 & 
+\end{bmatrix} \cdot \begin{bmatrix}
+-3\\ 
+4\\ 
+-11\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+5\\ 
+7\\ 
+16\\ 
+1
+\end{bmatrix}
+$$
 
 <h3>1. Traslación y 2. Rotación (MTH)</h3>
 
+En la figura, el sistema OUVW ha sido trasladado un vector 𝑝(8,−4,12) con respecto al sistema OXYZ y girado 90° alrededor del eje OX. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 de coordenadas 𝑟_𝑢𝑣𝑤 (−3,4,−11)  
+
+![Trasladar y rotar](image-7.png)
+
+Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
 <h3>Ejercicio 1</h3>
 
+Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{3}. Tenga en cuenta diferentes combinaciones de rotaciones del SC{2} al SC{3}, con respecto al sistema actual y al sistema fijo.
+
+![Ejercicio1](image-8.png)
+
+Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
 
 <h3>Ejercicio 2</h3>
+
+Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{2}. Tenga en cuenta diferentes combinaciones de rotaciones del SC{0} al SC{1} y del SC{1} al SC{2}, con respecto al sistema actual y al sistema fijo.
+
+Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
 
 
 
