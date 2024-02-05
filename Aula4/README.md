@@ -132,6 +132,54 @@ $$
 
 <h3>Rotación (MTH)</h3>
 
+En la figura, el sistema OUVW se encuentra girado -90° alrededor del eje Z con respecto al sistema OXYZ. Calcular las coordenadas del vector 𝑟_𝑥𝑦𝑧, si 𝑟_𝑢𝑣𝑤=〖[4,8,12]〗^𝑇
+
+![Rotación](image-4.png)
+
+Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
+
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+cosθ & -sinθ & 0 & 0\\ 
+sinθ & cosθ & 0 & 0\\ 
+0 & 0 & 1 & 0\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+𝑟_𝑢\\ 
+𝑟_𝑣\\ 
+𝑟_𝑤\\ 
+1
+\end{bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+0 & 1 & 0 & 0\\ 
+-1 & 0 & 0 & 0\\ 
+0 & 0 & 1 & 0\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+4\\ 
+8\\ 
+12\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+8\\ 
+-4\\ 
+12\\ 
+1
+\end{bmatrix}
+$$
 
 <h3>Rotación y traslación (MTH)</h3>
 
