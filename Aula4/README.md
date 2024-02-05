@@ -28,17 +28,19 @@ En la figura, el sistema O’UVW está trasladado de un vector 𝑝(6,−3,8) co
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+$$
 \begin{bmatrix}
 𝑟_𝑥\\ 
 𝑟_𝑦\\ 
 𝑟_𝑧\\ 
+\end{bmatrix} = \begin{bmatrix}
+ &  &  & \\ 
+ &  &  & \\ 
+ &  &  & \\ 
+ &  &  & 
 \end{bmatrix}
+$$
 
-\begin{bmatrix}
-r_x\\ 
-r_y\\ 
-r_z\\ 
-\end{bmatrix}
 
 Calcular el vector r’xyz resultante de trasladar el vector 𝑟_𝑥𝑦𝑧 (4,4,11) las coordenadas 𝑝_𝑥𝑦𝑧 (6,−3,8)
 
