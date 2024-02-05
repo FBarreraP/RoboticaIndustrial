@@ -248,6 +248,49 @@ En la figura, el sistema OUVW ha sido trasladado un vector 𝑝(8,−4,12) con r
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 𝑝_𝑥\\ 
+0 & cosθ & -sinθ & 𝑝_𝑦cosθ-𝑝_𝑧sinθ\\ 
+0 & sinθ & cosθ & 𝑝_𝑦sinθ+𝑝_𝑧cosθ\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+𝑟_𝑢\\ 
+𝑟_𝑣\\ 
+𝑟_𝑤\\ 
+1
+\end{bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 9\\ 
+0 & 0 & -1 & -12\\ 
+0 & 1 & 0 & -4\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+-3\\ 
+4\\ 
+-11\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+5\\ 
+-1\\ 
+0\\ 
+1
+\end{bmatrix}
+$$
+
 <h3>Ejercicio 1</h3>
 
 Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{3}. Tenga en cuenta diferentes combinaciones de rotaciones del SC{2} al SC{3}, con respecto al sistema actual y al sistema fijo.
@@ -259,6 +302,8 @@ Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling a
 <h3>Ejercicio 2</h3>
 
 Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{2}. Tenga en cuenta diferentes combinaciones de rotaciones del SC{0} al SC{1} y del SC{1} al SC{2}, con respecto al sistema actual y al sistema fijo.
+
+![Ejercicio2](image-9.png)
 
 Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
 
