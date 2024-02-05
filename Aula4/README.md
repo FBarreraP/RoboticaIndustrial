@@ -94,14 +94,38 @@ $$
 0 & 0 & 0 & 𝑝_𝑧\\ 
 0 & 0 & 0 & 1
 \end{bmatrix} \cdot \begin{bmatrix}
-𝑟_𝑢\\ 
-𝑟_𝑣\\ 
-𝑟_𝑤\\ 
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
 1
 \end{bmatrix} = \begin{bmatrix}
-𝑟_𝑢+𝑝_𝑥\\ 
-𝑟_𝑣+𝑝_𝑦\\ 
-𝑟_𝑤+𝑝_𝑧\\ 
+𝑟_𝑥+𝑝_𝑥\\ 
+𝑟_𝑦+𝑝_𝑦\\ 
+𝑟_𝑧+𝑝_𝑧\\ 
+1
+\end{bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+{𝑟}'_{𝑥}\\ 
+{𝑟}'_𝑦\\ 
+{𝑟}'_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 6\\ 
+0 & 1 & 0 & -3\\ 
+0 & 0 & 0 & 8\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+4\\ 
+4\\ 
+11\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+10\\ 
+1\\ 
+19\\ 
 1
 \end{bmatrix}
 $$
