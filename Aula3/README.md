@@ -1,6 +1,6 @@
 <h1>Aula 3</h1>
 
-Esta clase está basada en comprender los conceptos de posición y orientación de un cuerpo rígido y su representación a través de matrices.
+Esta clase consiste en comprender los conceptos de posición y orientación de un cuerpo rígido y su representación a través de matrices.
 
 <h2>Posición y orientación del cuerpo rígido y matrices de rotación</h2>
 
