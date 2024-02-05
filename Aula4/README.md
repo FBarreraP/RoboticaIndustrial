@@ -52,6 +52,30 @@ $$
 \end{bmatrix}
 $$
 
+$$
+\begin{bmatrix}
+𝑟_𝑥\\ 
+𝑟_𝑦\\ 
+𝑟_𝑧\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+1 & 0 & 0 & 6\\ 
+0 & 1 & 0 & -3\\ 
+0 & 0 & 0 & 8\\ 
+0 & 0 & 0 & 1
+\end{bmatrix} \cdot \begin{bmatrix}
+-2\\ 
+7\\ 
+3\\ 
+1
+\end{bmatrix} = \begin{bmatrix}
+4\\ 
+4\\ 
+11\\ 
+1
+\end{bmatrix}
+$$
+
 
 Calcular el vector r’xyz resultante de trasladar el vector 𝑟_𝑥𝑦𝑧 (4,4,11) las coordenadas 𝑝_𝑥𝑦𝑧 (6,−3,8)
 
