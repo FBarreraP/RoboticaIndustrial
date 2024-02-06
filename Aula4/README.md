@@ -1,6 +1,6 @@
 <h1>Aula 4</h1>
 
-Esta clase consiste en relacionar la traslación y la rotación en la matriz de transformación homogénea (MTH).
+Esta clase consiste en relacionar la traslación y la rotación de un cuerpo rígido en la matriz de transformación homogénea (MTH).
 
 <h2>Matriz de transformación homogénea (MTH)</h2>
 
@@ -28,6 +28,20 @@ En la figura, el sistema 𝑂’𝑈𝑉𝑊 está trasladado de un vector 𝑝(
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+```matlab
+clear all
+close all
+clc
+
+theta = -pi/2;
+Rz=[cos(theta) -sin(theta) 0 0;
+    sin(theta) cos(theta) 0 0;
+    0 0 1 0
+    0 0 0 1];
+r = [4; 8; 12; 1]
+Rzr = Rz*r
+```
+
 $$
 \begin{bmatrix}
 𝑟_𝑥\\ 
@@ -37,7 +51,7 @@ $$
 \end{bmatrix} = \begin{bmatrix}
 1 & 0 & 0 & 𝑝_𝑥\\ 
 0 & 1 & 0 & 𝑝_𝑦\\ 
-0 & 0 & 0 & 𝑝_𝑧\\ 
+0 & 0 & 1 & 𝑝_𝑧\\ 
 0 & 0 & 0 & 1
 \end{bmatrix} \cdot \begin{bmatrix}
 𝑟_𝑢\\ 
@@ -61,7 +75,7 @@ $$
 \end{bmatrix} = \begin{bmatrix}
 1 & 0 & 0 & 6\\ 
 0 & 1 & 0 & -3\\ 
-0 & 0 & 0 & 8\\ 
+0 & 0 & 1 & 8\\ 
 0 & 0 & 0 & 1
 \end{bmatrix} \cdot \begin{bmatrix}
 -2\\ 
@@ -91,7 +105,7 @@ $$
 \end{bmatrix} = \begin{bmatrix}
 1 & 0 & 0 & 𝑝_𝑥\\ 
 0 & 1 & 0 & 𝑝_𝑦\\ 
-0 & 0 & 0 & 𝑝_𝑧\\ 
+0 & 0 & 1 & 𝑝_𝑧\\ 
 0 & 0 & 0 & 1
 \end{bmatrix} \cdot \begin{bmatrix}
 𝑟_𝑥\\ 
@@ -115,7 +129,7 @@ $$
 \end{bmatrix} = \begin{bmatrix}
 1 & 0 & 0 & 6\\ 
 0 & 1 & 0 & -3\\ 
-0 & 0 & 0 & 8\\ 
+0 & 0 & 1 & 8\\ 
 0 & 0 & 0 & 1
 \end{bmatrix} \cdot \begin{bmatrix}
 4\\ 
@@ -137,6 +151,20 @@ En la figura, el sistema 𝑂𝑈𝑉𝑊 se encuentra girado -90° alrededor de
 ![Rotación](Imagenes/image-4.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
+
+```matlab
+clear all
+close all
+clc
+
+theta = -pi/2;
+Rz=[cos(theta) -sin(theta) 0 0;
+    sin(theta) cos(theta) 0 0;
+    0 0 1 0
+    0 0 0 1];
+r = [4; 8; 12; 1]
+Rzr = Rz*r
+```
 
 $$
 \begin{bmatrix}
