@@ -33,12 +33,12 @@ clear all
 close all
 clc
 
-R=[1 0 0 6;
+MTH=[1 0 0 6;
    0 1 0 -3;
    0 0 1 8;
    0 0 0 1];
 r = [-2; 7; 3; 1]
-Rr = R*r
+MTHr = MTH*r
 ```
 
 $$
@@ -100,12 +100,12 @@ clear all
 close all
 clc
 
-R=[1 0 0 6;
+MTH=[1 0 0 6;
    0 1 0 -3;
    0 0 1 8;
    0 0 0 1];
 r = [4; 4; 11; 1]
-Rr = R*r
+MTHr = MTH*r
 ```
 
 $$
@@ -170,12 +170,12 @@ close all
 clc
 
 theta = -pi/2;
-Rz=[cos(theta) -sin(theta) 0 0;
+MTH=[cos(theta) -sin(theta) 0 0;
     sin(theta) cos(theta) 0 0;
     0 0 1 0
     0 0 0 1];
 r = [4; 8; 12; 1]
-Rzr = Rz*r
+MTHr =MTH*r
 ```
 
 $$
