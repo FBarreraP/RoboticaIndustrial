@@ -4,27 +4,27 @@ Esta clase consiste en relacionar la traslación y la rotación en la matriz de 
 
 <h2>Matriz de transformación homogénea (MTH)</h2>
 
-Representa la transformación de la localización (orientación y posición) de un vector de coordenadas homogéneas de un sistema de coordenadas OUVW con respecto al sistema de referencia OXYZ.
+Representa la transformación de la localización (orientación y posición) de un vector de coordenadas homogéneas de un sistema de coordenadas 𝑂𝑈𝑉𝑊 con respecto al sistema de referencia 𝑂𝑋𝑌𝑍.
 
-![MTH](image.png)
+![MTH](Imagenes/image.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
 <h3>Justificaciones de la MTH</h3>
 
-1. Representar la posición y orientación de un sistema girado y trasladado O’UVW con respecto a un sistema fijo de referencia OXYZ, que es lo mismo que representar una rotación y traslación realizada sobre un sistema de referencia.
-2. Transformar un vector expresado en coordenadas con respecto a un sistema O’UVW, a su expresión en coordenadas del sistema de referencia OXYZ.
-3. Rotar y trasladar un vector con respecto a un sistema de referencia fijo OXYZ.
+1. Representar la posición y orientación de un sistema girado y trasladado 𝑂’𝑈𝑉𝑊 con respecto a un sistema fijo de referencia 𝑂𝑋𝑌𝑍, que es lo mismo que representar una rotación y traslación realizada sobre un sistema de referencia.
+2. Transformar un vector expresado en coordenadas con respecto a un sistema 𝑂’𝑈𝑉𝑊, a su expresión en coordenadas del sistema de referencia 𝑂𝑋𝑌𝑍.
+3. Rotar y trasladar un vector con respecto a un sistema de referencia fijo 𝑂𝑋𝑌𝑍.
 
-![Características MTH](image-1.png)
+![Características MTH](Imagenes/image-1.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
 <h3>Traslación (MTH)</h3>
 
-En la figura, el sistema O’UVW está trasladado de un vector 𝑝(6,−3,8) con respecto del sistema OXYZ. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟, cuyas coordenadas con respecto al sistema O’UVW son 𝑟_𝑢𝑣𝑤 (−2,7,3)
+En la figura, el sistema 𝑂’𝑈𝑉𝑊 está trasladado de un vector 𝑝(6,−3,8) con respecto del sistema OXYZ. Calcular las coordenadas $𝑟_{𝑥}$, $𝑟_{𝑦}$, $𝑟_{𝑧}$) del vector 𝑟, cuyas coordenadas con respecto al sistema 𝑂’𝑈𝑉𝑊 son 𝑟_𝑢𝑣𝑤 (−2,7,3)
 
-![Traslación1](image-2.png)
+![Traslación1](Imagenes/image-2.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
@@ -78,7 +78,7 @@ $$
 
 Calcular el vector r’xyz resultante de trasladar el vector 𝑟_𝑥𝑦𝑧 (4,4,11) las coordenadas 𝑝_𝑥𝑦𝑧 (6,−3,8)
 
-![Traslación2](image-3.png)
+![Traslación2](Imagenes/image-3.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
@@ -134,7 +134,7 @@ $$
 
 En la figura, el sistema OUVW se encuentra girado -90° alrededor del eje Z con respecto al sistema OXYZ. Calcular las coordenadas del vector 𝑟_𝑥𝑦𝑧, si 𝑟_𝑢𝑣𝑤=〖[4,8,12]〗^𝑇
 
-![Rotación](image-4.png)
+![Rotación](Imagenes/image-4.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
@@ -185,7 +185,7 @@ $$
 
 La traslación y rotación no son conmutativas, por tanto, no es lo mismo rotar y trasladar que trasladar y rotar.
 
-![Rotar-Trasladar](image-5.png)
+![Rotar-Trasladar](Imagenes/image-5.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
@@ -193,7 +193,7 @@ Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundame
 
 En la figura, el sistema OUVW ha sido girado 90° alrededor del eje X y posteriormente trasladado um vector 𝑝(8,−4,12) con respecto al sistema OXYZ. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 con coordenadas 𝑟_(𝑢^′ 𝑣^′ 𝑤^′ ) (−3,4,−11)
 
-![Rotar y trasladar](image-6.png)
+![Rotar y trasladar](Imagenes/image-6.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
@@ -244,7 +244,7 @@ $$
 
 En la figura, el sistema OUVW ha sido trasladado un vector 𝑝(8,−4,12) con respecto al sistema OXYZ y girado 90° alrededor del eje OX. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 de coordenadas 𝑟_𝑢𝑣𝑤 (−3,4,−11)  
 
-![Trasladar y rotar](image-7.png)
+![Trasladar y rotar](Imagenes/image-7.png)
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
@@ -295,7 +295,7 @@ $$
 
 Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{3}. Tenga en cuenta diferentes combinaciones de rotaciones del SC{2} al SC{3}, con respecto al sistema actual y al sistema fijo.
 
-![Ejercicio1](image-8.png)
+![Ejercicio1](Imagenes/image-8.png)
 
 Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
 
@@ -303,7 +303,7 @@ Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling a
 
 Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{2}. Tenga en cuenta diferentes combinaciones de rotaciones del SC{0} al SC{1} y del SC{1} al SC{2}, con respecto al sistema actual y al sistema fijo.
 
-![Ejercicio2](image-9.png)
+![Ejercicio2](Imagenes/image-9.png)
 
 Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
 
@@ -318,14 +318,3 @@ Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapte
 <img src="https://drek4537l1klr.cloudfront.net/bihlmaier/v-2/Figures/CH04_F04_bihlmaier-right_hand_rule.png" alt="Regla de la mano derecha (Roll, Pitch y Yaw)" caption="Hola"/>
 
 Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapter-4/v-2/47
-
-
-<img src="" alt="" caption="Hola"/>
-
-
-<img src="" alt="" caption="Hola"/>
-
-
-<img src="" alt="" caption="Hola"/>
-
-<img src="" alt="" caption="Hola"/>
