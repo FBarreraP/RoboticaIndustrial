@@ -370,12 +370,12 @@ Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{3}. Teng
 Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
 
 ```matlab
-% Sistema actual
+% Matrices de rotación (Sistema actual)
 R23_1 = round(RotarX(-pi)*RotarZ(-pi/2))
 R23_2 = round(RotarY(pi)*RotarZ(pi/2))
 R23_3 = round(RotarZ(pi/2)*RotarX(-pi))
 
-% Sistema fijo
+% Matrices de rotación (Sistema fijo)
 R23_1 = round(RotarZ(pi/2)*RotarX(-pi))
 R23_2 = round(RotarZ(-pi/2)*RotarY(pi))
 R23_3 = round(RotarY(-pi)*RotarZ(pi/2)) %round(RotarX(pi)*RotarZ(-pi/2))
@@ -383,6 +383,7 @@ R23_3 = round(RotarY(-pi)*RotarZ(pi/2)) %round(RotarX(pi)*RotarZ(-pi/2))
 %Ángulos de Euler
 r1 = rad2deg(tr2rpy(R23_3,'zyx'))
 
+%Matrices de transformación
 T01 = [1 0 0 0; 0 1 0 1; 0 0 1 1; 0 0 0 1]
 T12 = [1 0 0 -0.5; 0 1 0 0.5; 0 0 1 0; 0 0 0 1]
 T23 = [0 1 0 0; 1 0 0 0; 0 0 -1 2; 0 0 0 1]
