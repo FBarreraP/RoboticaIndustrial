@@ -132,7 +132,7 @@ $$
 
 <h3>Rotación (MTH)</h3>
 
-En la figura, el sistema OUVW se encuentra girado -90° alrededor del eje Z con respecto al sistema 𝑂𝑋𝑌𝑍. Calcular las coordenadas del vector $𝑟_{𝑥𝑦𝑧}$, si $𝑟_{𝑢𝑣𝑤} = [4,8,12]^{𝑇}$
+En la figura, el sistema 𝑂𝑈𝑉𝑊 se encuentra girado -90° alrededor del eje 𝑍 con respecto al sistema 𝑂𝑋𝑌𝑍. Calcular las coordenadas del vector $𝑟_{𝑥𝑦𝑧}$, si $𝑟_{𝑢𝑣𝑤} = [4,8,12]^{𝑇}$
 
 ![Rotación](Imagenes/image-4.png)
 
@@ -242,7 +242,7 @@ $$
 
 <h3>1. Traslación y 2. Rotación (MTH)</h3>
 
-En la figura, el sistema 𝑂𝑈𝑉𝑊 ha sido trasladado un vector 𝑝(8,−4,12) con respecto al sistema 𝑂𝑋𝑌𝑍 y girado 90° alrededor del eje 𝑂𝑋. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 de coordenadas 𝑟_𝑢𝑣𝑤 (−3,4,−11)  
+En la figura, el sistema 𝑂𝑈𝑉𝑊 ha sido trasladado un vector 𝑝(8,−4,12) con respecto al sistema 𝑂𝑋𝑌𝑍 y girado 90° alrededor del eje 𝑂𝑋. Calcular las coordenadas ($𝑟_{𝑥}$, $𝑟_{𝑦}$, $𝑟_{𝑧}$) del vector 𝑟 de coordenadas $𝑟_{𝑢𝑣𝑤}$ (−3,4,−11)  
 
 ![Trasladar y rotar](Imagenes/image-7.png)
 
