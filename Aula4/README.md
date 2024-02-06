@@ -306,15 +306,3 @@ Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{2}. Teng
 ![Ejercicio2](Imagenes/image-9.png)
 
 Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
-
-
-
-
-
-<img src="https://drek4537l1klr.cloudfront.net/bihlmaier/v-2/Figures/CH04_F03_bihlmaier-right_hand_rule_partial.png" alt="Regla de la mano derecha (X Y Z)" caption="Hola"/>
-
-Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapter-4/v-2/47
-
-<img src="https://drek4537l1klr.cloudfront.net/bihlmaier/v-2/Figures/CH04_F04_bihlmaier-right_hand_rule.png" alt="Regla de la mano derecha (Roll, Pitch y Yaw)" caption="Hola"/>
-
-Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapter-4/v-2/47
