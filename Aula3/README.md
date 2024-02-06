@@ -167,6 +167,14 @@ e = round(RotarX(pi+pi/2))
 
 La rotación consiste en girar un objeto (modificar la orientación) sobre los ejes de un plano cartesiano XYZ.
 
+![Regla mano derecha](Imagenes/image13.png)
+
+Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapter-4/v-2/47
+
+![Regla de la mano derecha (Roll, Pitch y Yaw)](Imagenes/image14.png)
+
+Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapter-4/v-2/47
+
 ![Rotación](Imagenes/image-7.png)
 
 No es lo mismo primero rotar en X y luego rotar en Y, que primero rotar en Y y luego rotar en X, independientemente si es con respecto al sistema fijo (premultiplicar) o al sistema móvil o actual (posmultiplicar). Por tanto, las rotaciones no son conmutativas.
