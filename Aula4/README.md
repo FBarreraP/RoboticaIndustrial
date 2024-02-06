@@ -76,7 +76,7 @@ $$
 \end{bmatrix}
 $$
 
-Calcular el vector $𝑟'_{𝑥𝑦𝑧}$ resultante de trasladar el vector $𝑟_{𝑥𝑦𝑧}$ (4,4,11) las coordenadas $𝑝_{𝑥𝑦𝑧}$ (6,−3,8)
+Calcular el vector $𝑟’_{𝑥𝑦𝑧}$ resultante de trasladar el vector $𝑟_{𝑥𝑦𝑧}$ (4,4,11) las coordenadas $𝑝_{𝑥𝑦𝑧}$ (6,−3,8)
 
 ![Traslación2](Imagenes/image-3.png)
 
