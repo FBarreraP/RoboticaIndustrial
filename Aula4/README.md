@@ -237,6 +237,21 @@ En la figura, el sistema 𝑂𝑈𝑉𝑊 ha sido girado 90° alrededor del eje 
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+```matlab
+clear all
+close all
+clc
+
+syms Px Py Pz theta
+
+dx = [1 0 0 Px; 0 1 0 Py; 0 0 1 Pz; 0 0 0 1]
+Rx = [1     0           0      0;
+      0 cos(theta) -sin(theta) 0;
+      0 sin(theta) cos(theta)  0;
+      0     0           0      1]
+RT = dx*Rx
+```
+
 $$
 \begin{bmatrix}
 𝑟_𝑥\\ 
@@ -288,6 +303,21 @@ En la figura, el sistema 𝑂𝑈𝑉𝑊 ha sido trasladado un vector 𝑝(8,�
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+```matlab
+clear all
+close all
+clc
+
+syms Px Py Pz theta
+
+dx = [1 0 0 Px; 0 1 0 Py; 0 0 1 Pz; 0 0 0 1]
+Rx = [1     0           0      0;
+      0 cos(theta) -sin(theta) 0;
+      0 sin(theta) cos(theta)  0;
+      0     0           0      1]
+TR = Rx*dx
+```
+
 $$
 \begin{bmatrix}
 𝑟_𝑥\\ 
@@ -338,6 +368,23 @@ Encontrar la matriz de transformación homogénea (MTH) del SC{0} al SC{3}. Teng
 ![Ejercicio1](Imagenes/image-8.png)
 
 Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling and control.
+
+```matlab
+% Sistema actual
+R23_1 = RotarX(-pi)*RotarZ(-pi/2)
+R23_2 = RotarY(pi)*RotarZ(pi/2)
+R23_3 = RotarZ(pi/2)*RotarX(-pi)
+
+% Sistema fijo
+R23_1 = 
+R23_2 = 
+R23_3 = 
+
+T01 = [1 0 0 0; 0 1 0 1; 0 0 1 1; 0 0 0 1]
+T12 = [1 0 0 -0.5; 0 1 0 0.5; 0 0 1 0; 0 0 0 1]
+T23 = [0 1 0 0; 1 0 0 0; 0 0 -1 2; 0 0 0 1]
+T03 = T01*T12*T23
+```
 
 <h3>Ejercicio 2</h3>
 
