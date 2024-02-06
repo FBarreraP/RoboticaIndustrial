@@ -64,8 +64,9 @@ En la figura, el sistema 𝑂’𝑈𝑉𝑊 está trasladado de un vector 𝑝(
 
 ![Ejercicio1](Imagenes/image-4.png)
 
+Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
+
 ```matlab
-%% 
 clear all
 close all
 clc
@@ -74,8 +75,6 @@ p = [6; -3; 8]
 r = [-2; 7; 3]
 pr = p + r
 ```
-
-Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
 $$\vec{p}= \begin{bmatrix}
 6\\ 
@@ -111,6 +110,16 @@ Calcular el vector $𝑟_{𝑥𝑦𝑧}'$ resultante de trasladar el vector $�
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+```matlab
+clear all
+close all
+clc
+
+r = [4; 4; 11]
+p = [6; -3; 8]
+rp = r + p
+```
+
 $$\vec{r}= \begin{bmatrix}
 4\\ 
 4\\ 
@@ -137,16 +146,6 @@ $$\vec{r}+\vec{p}= \begin{bmatrix}
 19
 \end{bmatrix}$$
 
-```matlab
-%% 
-clear all
-close all
-clc
-
-r = [4; 4; 11]
-p = [6; -3; 8]
-rp = r + p
-```
 <h3>Rotación</h3>
 
 La rotación consiste en girar un objeto (modificar la orientación) sobre los ejes de un plano cartesiano XYZ.
@@ -162,7 +161,6 @@ Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapte
 ![Rotación](Imagenes/image-7.png)
 
 ```matlab
-%% 
 clear all
 close all
 clc
@@ -182,7 +180,6 @@ Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundame
 ![Matrices](Imagenes/image-8.png)
 
 ```matlab
-%% 
 clear all
 close all
 clc
@@ -230,6 +227,16 @@ En la figura, el sistema 𝑂𝑈𝑉𝑊 se encuentra girado −90° alrededor 
 
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
+```matlab
+clear all
+close all
+clc
+
+Rz = RotarZ(-pi/2)
+r = [4; 8; 12]
+Rzr = Rz * r
+```
+
 $$R_z=\begin{bmatrix}
  cos(-90)&  -sin(-90)& 0\\ 
  sin(-90)&  cos(-90)& 0\\ 
@@ -255,14 +262,3 @@ $$R_z\cdot \vec{r} =\begin{bmatrix}
 -4\\ 
 12
 \end{bmatrix}$$
-
-```matlab
-%% 
-clear all
-close all
-clc
-
-Rz = RotarZ(-pi/2)
-r = [4; 8; 12]
-Rzr = Rz * r
-```
