@@ -380,10 +380,17 @@ R23_1 = round(RotarZ(pi/2)*RotarX(-pi))
 R23_2 = round(RotarZ(-pi/2)*RotarY(pi))
 R23_3 = round(RotarY(-pi)*RotarZ(pi/2)) %round(RotarX(pi)*RotarZ(-pi/2))
 
+%Ángulos de Euler
+r1 = rad2deg(tr2rpy(R23_3,'zyx'))
+
 T01 = [1 0 0 0; 0 1 0 1; 0 0 1 1; 0 0 0 1]
 T12 = [1 0 0 -0.5; 0 1 0 0.5; 0 0 1 0; 0 0 0 1]
 T23 = [0 1 0 0; 1 0 0 0; 0 0 -1 2; 0 0 0 1]
 T03 = T01*T12*T23
+
+%Ángulos de Euler
+m = T03(1:3,1:3)
+r2 = rad2deg(tr2rpy(m,'zyx'))
 ```
 
 <h3>Ejercicio 2</h3>
