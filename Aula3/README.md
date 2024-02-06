@@ -64,6 +64,17 @@ En la figura, el sistema 𝑂’𝑈𝑉𝑊 está trasladado de un vector 𝑝(
 
 ![Ejercicio1](Imagenes/image-4.png)
 
+```matlab
+%% 
+clear all
+close all
+clc
+
+p = [6; -3; 8]
+r = [-2; 7; 3]
+pr = p + r
+```
+
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
 $$\vec{p}= \begin{bmatrix}
@@ -132,37 +143,10 @@ clear all
 close all
 clc
 
-%Traslación 1
-p = [6; -3; 8]
-r = [-2; 7; 3]
-pr = p + r
-
-%Traslación 2
 r = [4; 4; 11]
 p = [6; -3; 8]
 rp = r + p
-
-%Rotación 1
-Rz = RotarZ(-pi/2)
-r = [4; 8; 12]
-Rzr = Rz * r
-
-%Matrices de rotación con 0 grados
-alfa = 0
-RotarX(alfa)
-RotarY(alfa)
-RotarZ(alfa)
-
-
-a = round(RotarZ(pi/2)*RotarY(pi/2))
-b = round(RotarY(pi/2)*RotarZ(pi/2))
-
-c = round(RotarX(pi/2)*RotarX(pi))
-d = round(RotarX(pi)*RotarX(pi/2))
-e = round(RotarX(pi+pi/2))
-
 ```
-
 <h3>Rotación</h3>
 
 La rotación consiste en girar un objeto (modificar la orientación) sobre los ejes de un plano cartesiano XYZ.
@@ -177,6 +161,18 @@ Fuente: https://livebook.manning.com/book/robotics-for-software-engineers/chapte
 
 ![Rotación](Imagenes/image-7.png)
 
+```matlab
+%% 
+clear all
+close all
+clc
+
+alfa = 0
+RotarX(alfa)
+RotarY(alfa)
+RotarZ(alfa)
+```
+
 No es lo mismo primero rotar en X y luego rotar en Y, que primero rotar en Y y luego rotar en X, independientemente si es con respecto al sistema fijo (premultiplicar) o al sistema móvil o actual (posmultiplicar). Por tanto, las rotaciones no son conmutativas.
 
 ![Rotación2](Imagenes/image-6.png)
@@ -184,6 +180,21 @@ No es lo mismo primero rotar en X y luego rotar en Y, que primero rotar en Y y l
 Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundamentos de Robótica, 2nd edition, McGraw-Hill.
 
 ![Matrices](Imagenes/image-8.png)
+
+```matlab
+%% 
+clear all
+close all
+clc
+
+a = round(RotarZ(pi/2)*RotarY(pi/2))
+b = round(RotarY(pi/2)*RotarZ(pi/2))
+
+%Excepción si gira en el mismo eje
+c = round(RotarX(pi/2)*RotarX(pi))
+d = round(RotarX(pi)*RotarX(pi/2))
+e = round(RotarX(pi+pi/2))
+```
 
 <h2>Sistema actual</h2>
 
@@ -244,3 +255,14 @@ $$R_z\cdot \vec{r} =\begin{bmatrix}
 -4\\ 
 12
 \end{bmatrix}$$
+
+```matlab
+%% 
+clear all
+close all
+clc
+
+Rz = RotarZ(-pi/2)
+r = [4; 8; 12]
+Rzr = Rz * r
+```
