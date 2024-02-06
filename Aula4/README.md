@@ -371,14 +371,14 @@ Fuente: Spong, M. W., Hutchinson, S., & Vidyasagar, M. (2006). Robot modeling a
 
 ```matlab
 % Sistema actual
-R23_1 = RotarX(-pi)*RotarZ(-pi/2)
-R23_2 = RotarY(pi)*RotarZ(pi/2)
-R23_3 = RotarZ(pi/2)*RotarX(-pi)
+R23_1 = round(RotarX(-pi)*RotarZ(-pi/2))
+R23_2 = round(RotarY(pi)*RotarZ(pi/2))
+R23_3 = round(RotarZ(pi/2)*RotarX(-pi))
 
 % Sistema fijo
-R23_1 = 
-R23_2 = 
-R23_3 = 
+R23_1 = round(RotarZ(pi/2)*RotarX(-pi))
+R23_2 = round(RotarZ(-pi/2)*RotarY(pi))
+R23_3 = round(RotarY(-pi)*RotarZ(pi/2)) %round(RotarX(pi)*RotarZ(-pi/2))
 
 T01 = [1 0 0 0; 0 1 0 1; 0 0 1 1; 0 0 0 1]
 T12 = [1 0 0 -0.5; 0 1 0 0.5; 0 0 1 0; 0 0 0 1]
