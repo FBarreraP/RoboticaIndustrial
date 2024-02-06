@@ -22,7 +22,7 @@ Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundame
 
 <h3>Traslación (MTH)</h3>
 
-En la figura, el sistema 𝑂’𝑈𝑉𝑊 está trasladado de un vector 𝑝(6,−3,8) con respecto del sistema OXYZ. Calcular las coordenadas $𝑟_{𝑥}$, $𝑟_{𝑦}$, $𝑟_{𝑧}$) del vector 𝑟, cuyas coordenadas con respecto al sistema 𝑂’𝑈𝑉𝑊 son 𝑟_𝑢𝑣𝑤 (−2,7,3)
+En la figura, el sistema 𝑂’𝑈𝑉𝑊 está trasladado de un vector 𝑝(6,−3,8) con respecto del sistema 𝑂𝑋𝑌𝑍. Calcular las coordenadas ($𝑟_{𝑥}$, $𝑟_{𝑦}$, $𝑟_{𝑧}$) del vector 𝑟, cuyas coordenadas con respecto al sistema 𝑂’𝑈𝑉𝑊 son $𝑟_{𝑢𝑣𝑤}$ (−2,7,3)
 
 ![Traslación1](Imagenes/image-2.png)
 
@@ -76,7 +76,7 @@ $$
 \end{bmatrix}
 $$
 
-Calcular el vector r’xyz resultante de trasladar el vector 𝑟_𝑥𝑦𝑧 (4,4,11) las coordenadas 𝑝_𝑥𝑦𝑧 (6,−3,8)
+Calcular el vector r’xyz resultante de trasladar el vector $𝑟_{𝑥𝑦𝑧}$ (4,4,11) las coordenadas $𝑝_{𝑥𝑦𝑧}$ (6,−3,8)
 
 ![Traslación2](Imagenes/image-3.png)
 
@@ -132,7 +132,7 @@ $$
 
 <h3>Rotación (MTH)</h3>
 
-En la figura, el sistema OUVW se encuentra girado -90° alrededor del eje Z con respecto al sistema OXYZ. Calcular las coordenadas del vector 𝑟_𝑥𝑦𝑧, si 𝑟_𝑢𝑣𝑤=〖[4,8,12]〗^𝑇
+En la figura, el sistema OUVW se encuentra girado -90° alrededor del eje Z con respecto al sistema 𝑂𝑋𝑌𝑍. Calcular las coordenadas del vector $𝑟_{𝑥𝑦𝑧}$, si $𝑟_{𝑢𝑣𝑤} = [4,8,12]^{𝑇}$
 
 ![Rotación](Imagenes/image-4.png)
 
@@ -191,7 +191,7 @@ Fuente: Barrientos, A., Peñín, L.F., Balaguer, C., y Aracil, R., 2007, Fundame
 
 <h3>1. Rotación y 2. traslación (MTH)</h3>
 
-En la figura, el sistema OUVW ha sido girado 90° alrededor del eje X y posteriormente trasladado um vector 𝑝(8,−4,12) con respecto al sistema OXYZ. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 con coordenadas 𝑟_(𝑢^′ 𝑣^′ 𝑤^′ ) (−3,4,−11)
+En la figura, el sistema 𝑂𝑈𝑉𝑊 ha sido girado 90° alrededor del eje 𝑋 y posteriormente trasladado um vector 𝑝(8,−4,12) con respecto al sistema 𝑂𝑋𝑌𝑍. Calcular las coordenadas ($𝑟_{𝑥}$, $𝑟_{𝑦}$, $𝑟_{𝑧}$) del vector 𝑟 con coordenadas $𝑟_{𝑢^′ 𝑣^′ 𝑤^′}$ (−3,4,−11)
 
 ![Rotar y trasladar](Imagenes/image-6.png)
 
@@ -242,7 +242,7 @@ $$
 
 <h3>1. Traslación y 2. Rotación (MTH)</h3>
 
-En la figura, el sistema OUVW ha sido trasladado un vector 𝑝(8,−4,12) con respecto al sistema OXYZ y girado 90° alrededor del eje OX. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 de coordenadas 𝑟_𝑢𝑣𝑤 (−3,4,−11)  
+En la figura, el sistema 𝑂𝑈𝑉𝑊 ha sido trasladado un vector 𝑝(8,−4,12) con respecto al sistema 𝑂𝑋𝑌𝑍 y girado 90° alrededor del eje 𝑂𝑋. Calcular las coordenadas (𝑟_𝑥,𝑟_𝑦,𝑟_𝑧) del vector 𝑟 de coordenadas 𝑟_𝑢𝑣𝑤 (−3,4,−11)  
 
 ![Trasladar y rotar](Imagenes/image-7.png)
 
