@@ -47,6 +47,7 @@ $$𝜑=cos^{−1}\frac{𝑧}{𝑟}=69.588°$$
 La posición (traslación) es el punto en la coordenada XYZ y la orientación (rotación) es la localización de los ejes alrededor de dicho punto con respecto a un sistema coordenado de origen (cuerpo rígido). Cada articulación tiene un sistema coordenado.
 
 ![SC trasladado y rotado](Imagenes/image12.png)
+
 Fuente: http://www.udesantiagovirtual.cl/moodle2/pluginfile.php?file=/55554/mod_book/chapter/285/figuras/Ch3_fig3-1.svg
 
 <h3>Traslación</h3>
