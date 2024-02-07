@@ -325,6 +325,7 @@ clear all
 close all
 clc
 
+%Solución simbólica
 syms Px Py Pz theta
 
 dx = [1 0 0 Px; 0 1 0 Py; 0 0 1 Pz; 0 0 0 1]
@@ -333,6 +334,22 @@ Rx = [1     0           0      0;
       0 sin(theta) cos(theta)  0;
       0     0           0      1]
 TR = Rx*dx
+
+%Solución numérica
+Px = 8
+Py = -4
+Pz = 12
+theta = pi/2
+
+dx = [1 0 0 Px; 0 1 0 Py; 0 0 1 Pz; 0 0 0 1]
+Rx = [1     0           0      0;
+      0 cos(theta) -sin(theta) 0;
+      0 sin(theta) cos(theta)  0;
+      0     0           0      1]
+TR = Rx*dx
+
+r = [-3; 4; -11; 1]
+TRr = TR*r
 ```
 
 $$
