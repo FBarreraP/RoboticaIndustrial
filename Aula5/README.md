@@ -23,7 +23,7 @@ https://www.vmware.com/products/workstation-player/workstation-player-evaluation
 
 <h2>comunicación UART entre Matlab y PIC (Proteus)</h2>
 
-La comunicación serial entre Matlab y el PIC en Proteus se realiza a través del <i>software</i> `Virtual Serial Port Driver`
+La comunicación serial entre Matlab y el PIC en Proteus se realiza a través del <i>software</i> `Virtual Serial Port Driver`, el cual se encarga de crear puertos seriales virtuales para la comunicación entre los dos programas.
 
 ![PIC Proteus](image.png)
 
