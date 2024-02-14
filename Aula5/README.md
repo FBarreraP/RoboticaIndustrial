@@ -4,8 +4,7 @@ Esta clase consiste en utilizar la máquina virtual UR Sim (UR Academy) y en sim
 
 <h2>Máquina virtual UR Sim (UR Academy)</h2>
 
-
-Curso gratuito UR Sim
+<h3>Curso gratuito UR Sim</h3>
 
 https://academy.universal-robots.com/es/formacion-en-linea-gratuita/formacion-en-linea-de-cb3/
 
@@ -27,7 +26,7 @@ La comunicación serial entre Matlab y el PIC en Proteus se realiza a través de
 
 ![PIC Proteus](image.png)
 
-Código del PIC 18F45K22
+<h3>Código del PIC 18F45K22</h3>
 
 ```c
 /*
@@ -161,7 +160,7 @@ void __interrupt() RECEIVE(void){
 }
 ```
 
-Código de matlab
+<h3>Código de matlab</h3>
 
 ```matlab
 close all;
