@@ -8,11 +8,11 @@ Esta clase consiste en utilizar la máquina virtual UR Sim (UR Academy) y en sim
 
 https://academy.universal-robots.com/es/formacion-en-linea-gratuita/formacion-en-linea-de-cb3/
 
-Sistema operativo de UR Sim
+<h3>Sistema operativo de UR Sim</h3>
 
 https://www.universal-robots.com/download/software-cb-series/simulator-non-linux/offline-simulator-cb-series-non-linux-ursim-3158/
 
-Máquina virtual
+<h3>Máquina virtual</h3>
 
 https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
 
