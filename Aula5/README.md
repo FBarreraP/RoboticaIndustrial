@@ -10,7 +10,7 @@ https://academy.universal-robots.com/es/formacion-en-linea-gratuita/formacion-en
 
 Sistema operativo de UR Sim
 
-https://www.universal-robots.com/download/software-cb-series/simulator-non-linux/offline-simulator-cb-series-non-linux-ursim-3101/
+https://www.universal-robots.com/download/software-cb-series/simulator-non-linux/offline-simulator-cb-series-non-linux-ursim-3158/
 
 Máquina virtual
 
