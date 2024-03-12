@@ -39,3 +39,9 @@ Regla 4: Cada eje X debe intersecar el eje Z del SC inmediatamente anterior.
 <h4>Ejercicio 2</h4>
 
 ![Ejercicio 2 paso 1 DH](Imagenes/image-3.png)
+
+<h3>Ejercicios</h3>
+
+Realizar la asignación de sistemas coordenados de los siguientes cinco tipos de robots: 1. Cartesiano, 2. Cilíndrico, 3. Esférico, 4. Scara y 5. Angular.
+
+![Ejercicios](Imagenes/image-13.png)

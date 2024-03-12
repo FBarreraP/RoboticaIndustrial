@@ -154,3 +154,9 @@ Robot.teach([q1,q2,q3,q4],'rpy/zyx');
 MTH = Robot.fkine([q1,q2,q3,q4])
 ```
 
+<h3>Ejercicios</h3>
+
+Obtener los parámetros DH de los siguientes cinco tipos de robots: 1. Cartesiano, 2. Cilíndrico, 3. Esférico, 4. Scara y 5. Angular.
+
+![Ejercicios](Imagenes/image-13.png)
+
