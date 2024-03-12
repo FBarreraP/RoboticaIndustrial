@@ -1,6 +1,6 @@
 <h1>Aula 14</h1>
 
-Esta clase consiste en comprender y aplicar el primer paso del método DH (Denavit-Hartengerg), siendo este método una solución de la cinemática directa de robots manipuladores seriales.
+Esta clase consiste en comprender y aplicar el primer paso del método DH (Denavit-Hartengerg), el cual es una solución de la cinemática directa de robots manipuladores seriales.
 
 <h2>Método DH</h2>
 
