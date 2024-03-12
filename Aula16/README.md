@@ -2,13 +2,13 @@
 
 Esta clase consiste en comprender y aplicar el tercer paso del método DH (Denavit-Hartengerg).
 
-<h3>Paso 3 - Matriz DH</h3>
+<h2>Paso 3 - Matriz DH</h2>
 
 $$𝑇_𝑛^{𝑛−1}=𝑇𝑟𝑎𝑛𝑠_{𝑧_{𝑛−1}}(𝑑_𝑛) \cdot 𝑅𝑜𝑡_{𝑧_{𝑛−1}}(𝜃_𝑛) \cdot 𝑇𝑟𝑎𝑛𝑠_{𝑥_𝑛}(𝑎_𝑛) \cdot 𝑅𝑜𝑡_{𝑥_𝑛}(𝛼_𝑛)$$
 
 $$𝑇_𝑛^{𝑛−1}= 𝑅𝑜𝑡_{𝑧_{𝑛−1}}(𝜃_𝑛) \cdot 𝑇𝑟𝑎𝑛𝑠_{𝑧_{𝑛−1}}(𝑑_𝑛) \cdot 𝑅𝑜𝑡_{𝑥_𝑛}(𝛼_𝑛) \cdot 𝑇𝑟𝑎𝑛𝑠_{𝑥_𝑛}(𝑎_𝑛)$$
 
-<h4>Ejemplo 1</h4>
+<h3>Ejemplo 1</h3>
 
 ![Ejemplo 1 paso 2 DH](Imagenes/image-9.png)
 
@@ -115,7 +115,7 @@ m = T02(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h4>Ejemplo 2</h4>
+<h3>Ejemplo 2</h3>
 
 ![Ejemplo 2 paso 2 DH](Imagenes/image-10.png)
 
@@ -222,7 +222,7 @@ m = T02(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h4>Ejercicio 1</h4>
+<h3>Ejercicio 1</h3>
 
 ![Ejercicio 1 paso 2 DH](Imagenes/image-11.png)
 
@@ -328,7 +328,7 @@ m = T02(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h4>Ejercicio 2</h4>
+<h3>Ejercicio 2</h3>
 
 ![Ejercicio 2 paso 2 DH](Imagenes/image-12.png)
 
@@ -504,7 +504,7 @@ m = T04(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h4>2R</h4>
+<h3>2R</h3>
 
 ![2R](Imagenes/image-14.png)
 
@@ -679,6 +679,6 @@ r = rad2deg(tr2rpy(m,'zyx'))
 
 <h3>Ejercicios</h3>
 
-Realizar la asignación de sistemas coordenados para cada articulación, obtener los parámetros DH y calcular la MTH final de los siguientes cinco tipos de robots: 1. Cartesiano, 2. Cilíndrico, 3. Esférico, 4. Scara y 5. Angular.
+Calcular la MTH final de los siguientes cinco tipos de robots: 1. Cartesiano, 2. Cilíndrico, 3. Esférico, 4. Scara y 5. Angular.
 
 ![Ejercicios](Imagenes/image-13.png)
