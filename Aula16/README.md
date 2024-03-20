@@ -4,11 +4,13 @@ Esta clase consiste en comprender y aplicar el tercer paso del método DH (Denav
 
 <h2>Paso 3 - Matriz DH</h2>
 
+<h3>Paso 3 - Matriz DH</h3>
+
 $$𝑇_𝑛^{𝑛−1}=𝑇𝑟𝑎𝑛𝑠_{𝑧_{𝑛−1}}(𝑑_𝑛) \cdot 𝑅𝑜𝑡_{𝑧_{𝑛−1}}(𝜃_𝑛) \cdot 𝑇𝑟𝑎𝑛𝑠_{𝑥_𝑛}(𝑎_𝑛) \cdot 𝑅𝑜𝑡_{𝑥_𝑛}(𝛼_𝑛)$$
 
 $$𝑇_𝑛^{𝑛−1}= 𝑅𝑜𝑡_{𝑧_{𝑛−1}}(𝜃_𝑛) \cdot 𝑇𝑟𝑎𝑛𝑠_{𝑧_{𝑛−1}}(𝑑_𝑛) \cdot 𝑅𝑜𝑡_{𝑥_𝑛}(𝛼_𝑛) \cdot 𝑇𝑟𝑎𝑛𝑠_{𝑥_𝑛}(𝑎_𝑛)$$
 
-<h3>Ejemplo 1</h3>
+<h4>Ejemplo 1</h4>
 
 ![Ejemplo 1 paso 2 DH](Imagenes/image-9.png)
 
@@ -97,16 +99,16 @@ MTH = Robot.fkine([q1,q2])
 TZ0 = [1 0 0 0; 0 1 0 0; 0 0 1 a1; 0 0 0 1]
 RZ0 = [cos(q1) -sin(q1) 0 0; sin(q1) cos(q1) 0 0; 0 0 1 0; 0 0 0 1]
 TX1 = [1 0 0 a2; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ1 = [1 0 0 0; 0 cos(pi/2) -sin(pi/2) 0; 0 sin(pi/2) cos(pi/2) 0; 0 0 0 1]
-T01 =  TZ0*RZ0*TX1*RZ1
-T01 =  RZ0*TZ0*TX1*RZ1
+RX1 = [1 0 0 0; 0 cos(pi/2) -sin(pi/2) 0; 0 sin(pi/2) cos(pi/2) 0; 0 0 0 1]
+T01 =  TZ0*RZ0*TX1*RX1
+T01 =  RZ0*TZ0*RX1*TX1
 
 TZ1 = [1 0 0 0; 0 1 0 0; 0 0 1 a3; 0 0 0 1]
 RZ1 = [cos(q2) -sin(q2) 0 0; sin(q2) cos(q2) 0 0; 0 0 1 0; 0 0 0 1]
 TX2 = [1 0 0 a4; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T12 =  TZ1*RZ1*TX2*RZ2
-T12 =  RZ1*TZ1*TX2*RZ2
+RX2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T12 =  TZ1*RZ1*TX2*RX2
+T12 =  RZ1*TZ1*RX2*TX2
 
 T02 = T01*T12
 
@@ -115,7 +117,7 @@ m = T02(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h3>Ejemplo 2</h3>
+<h4>Ejemplo 2</h4>
 
 ![Ejemplo 2 paso 2 DH](Imagenes/image-10.png)
 
@@ -204,16 +206,16 @@ MTH = Robot.fkine([q1,q2])
 TZ0 = [1 0 0 0; 0 1 0 0; 0 0 1 l1; 0 0 0 1]
 RZ0 = [cos(q1+pi/2) -sin(q1+pi/2) 0 0; sin(q1+pi/2) cos(q1+pi/2) 0 0; 0 0 1 0; 0 0 0 1]
 TX1 = [1 0 0 l3; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ1 = [1 0 0 0; 0 cos(pi/2) -sin(pi/2) 0; 0 sin(pi/2) cos(+pi/2) 0; 0 0 0 1]
-% T01 =  TZ0*RZ0*TX1*RZ1
-T01 =  RZ0*TZ0*TX1*RZ1
+RX1 = [1 0 0 0; 0 cos(pi/2) -sin(pi/2) 0; 0 sin(pi/2) cos(+pi/2) 0; 0 0 0 1]
+T01 =  TZ0*RZ0*TX1*RX1
+T01 =  RZ0*TZ0*RX1*TX1
 
 TZ1 = [1 0 0 0; 0 1 0 0; 0 0 1 q2+l2+l4; 0 0 0 1]
 RZ1 = [cos(0) -sin(0) 0 0; sin(0) cos(0) 0 0; 0 0 1 0; 0 0 0 1]
 TX2 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T12 =  TZ1*RZ1*TX2*RZ2
-T12 =  RZ1*TZ1*TX2*RZ2
+RX2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T12 =  TZ1*RZ1*TX2*RX2
+T12 =  RZ1*TZ1*RX2*TX2
 
 T02 = T01*T12
 
@@ -222,7 +224,7 @@ m = T02(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h3>Ejercicio 1</h3>
+<h4>Ejercicio 1</h4>
 
 ![Ejercicio 1 paso 2 DH](Imagenes/image-11.png)
 
@@ -311,15 +313,15 @@ TZ0 = [1 0 0 0; 0 1 0 0; 0 0 1 a1; 0 0 0 1]
 RZ0 = [cos(q1) -sin(q1) 0 0; sin(q1) cos(q1) 0 0; 0 0 1 0; 0 0 0 1]
 TX1 = [1 0 0 a2; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ1 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T01 =  TZ0*RZ0*TX1*RZ1
-T01 =  RZ0*TZ0*TX1*RZ1
+T01 =  TZ0*RZ0*TX1*RX1
+T01 =  RZ0*TZ0*RX1*TX1
 
 TZ1 = [1 0 0 0; 0 1 0 0; 0 0 1 a3; 0 0 0 1]
 RZ1 = [cos(q2) -sin(q2) 0 0; sin(q2) cos(q2) 0 0; 0 0 1 0; 0 0 0 1]
 TX2 = [1 0 0 a4; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T12 =  TZ1*RZ1*TX2*RZ2
-T12 =  RZ1*TZ1*TX2*RZ2
+T12 =  TZ1*RZ1*TX2*RX2
+T12 =  RZ1*TZ1*RX2*TX2
 
 T02 = T01*T12
 
@@ -328,7 +330,7 @@ m = T02(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h3>Ejercicio 2</h3>
+<h4>Ejercicio 2</h4>
 
 ![Ejercicio 2 paso 2 DH](Imagenes/image-12.png)
 
@@ -473,29 +475,29 @@ TZ0 = [1 0 0 0; 0 1 0 0; 0 0 1 a1; 0 0 0 1]
 RZ0 = [cos(q1) -sin(q1) 0 0; sin(q1) cos(q1) 0 0; 0 0 1 0; 0 0 0 1]
 TX1 = [1 0 0 a2; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ1 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T01 =  TZ0*RZ0*TX1*RZ1
-T01 =  RZ0*TZ0*TX1*RZ1
+T01 =  TZ0*RZ0*TX1*RX1
+T01 =  RZ0*TZ0*RX1*TX1
 
 TZ1 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ1 = [cos(q2) -sin(q2) 0 0; sin(q2) cos(q2) 0 0; 0 0 1 0; 0 0 0 1]
 TX2 = [1 0 0 a3; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ2 = [1 0 0 0; 0 cos(-pi) -sin(-pi) 0; 0 sin(-pi) cos(-pi) 0; 0 0 0 1]
-% T12 =  TZ1*RZ1*TX2*RZ2
-T12 =  RZ1*TZ1*TX2*RZ2
+T12 =  TZ1*RZ1*TX2*RX2
+T12 =  RZ1*TZ1*RX2*TX2
 
 TZ2 = [1 0 0 0; 0 1 0 0; 0 0 1 a4+q3; 0 0 0 1]
 RZ2 = [cos(0) -sin(0) 0 0; sin(0) cos(0) 0 0; 0 0 1 0; 0 0 0 1]
 TX3 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ3 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T01 =  TZ0*RZ0*TX1*RZ1
-T23 =  RZ2*TZ2*TX3*RZ3
+RX3 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T23 =  TZ2*RZ2*TX3*RX3
+T23 =  RZ2*TZ2*RX3*TX3
 
 TZ3 = [1 0 0 0; 0 1 0 0; 0 0 1 a5; 0 0 0 1]
 RZ3 = [cos(q4) -sin(q4) 0 0; sin(q4) cos(q4) 0 0; 0 0 1 0; 0 0 0 1]
 TX4 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ4 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T12 =  TZ1*RZ1*TX2*RZ2
-T34 =  RZ3*TZ3*TX4*RZ4
+RX4 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T34 =  TZ3*RZ3*TX4*RX4
+T34 =  RZ3*TZ3*RX4*TX4
 
 T04 = T01*T12*T23*T34
 
@@ -504,7 +506,7 @@ m = T04(1:3,1:3)
 r = rad2deg(tr2rpy(m,'zyx'))
 ```
 
-<h3>2R</h3>
+<h4>2R</h4>
 
 ![2R](Imagenes/image-14.png)
 
@@ -644,30 +646,30 @@ MTH = Robot.fkine([q1,q2])
 TZ0 = [1 0 0 0; 0 1 0 0; 0 0 1 h1; 0 0 0 1]
 RZ0 = [cos(0) -sin(0) 0 0; sin(0) cos(0) 0 0; 0 0 1 0; 0 0 0 1]
 TX1 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ1 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T01 =  TZ0*RZ0*TX1*RZ1
-T01 =  RZ0*TZ0*RZ1*TX1
+RX1 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T01 =  TZ0*RZ0*TX1*RX1
+T01 =  RZ0*TZ0*RX1*TX1
 
 TZ1 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ1 = [cos(q1) -sin(q1) 0 0; sin(q1) cos(q1) 0 0; 0 0 1 0; 0 0 0 1]
 TX2 = [1 0 0 l1; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T12 =  TZ1*RZ1*TX2*RZ2
-T12 =  RZ1*TZ1*RZ2*TX2
+RX2 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T12 =  TZ1*RZ1*TX2*RX2
+T12 =  RZ1*TZ1*RX2*TX2
 
 TZ2 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
 RZ2 = [cos(q2) -sin(q2) 0 0; sin(q2) cos(q2) 0 0; 0 0 1 0; 0 0 0 1]
 TX3 = [1 0 0 l2; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ3 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T23 =  TZ2*RZ2*TX3*RZ3
-T23 =  RZ2*TZ2*RZ3*TX3
+RX3 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T23 =  TZ2*RZ2*TX3*RX3
+T23 =  RZ2*TZ2*RX3*TX3
 
 TZ3 = [1 0 0 0; 0 1 0 0; 0 0 1 -h2; 0 0 0 1]
 RZ3 = [cos(0) -sin(0) 0 0; sin(0) cos(0) 0 0; 0 0 1 0; 0 0 0 1]
 TX4 = [1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1]
-RZ4 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
-% T34 =  TZ3*RZ3*RZ4*TX4
-T34 =  RZ3*TZ3*TX4*RZ4
+RX4 = [1 0 0 0; 0 cos(0) -sin(0) 0; 0 sin(0) cos(0) 0; 0 0 0 1]
+T34 =  TZ3*RZ3*RX4*TX4
+T34 =  RZ3*TZ3*TX4*RX4
 
 % T04 = simplify(T01*T12*T23*T34)
 T04 = T01*T12*T23*T34
@@ -679,6 +681,6 @@ r = rad2deg(tr2rpy(m,'zyx'))
 
 <h3>Ejercicios</h3>
 
-Calcular la MTH final de los siguientes cinco tipos de robots: 1. Cartesiano, 2. Cilíndrico, 3. Esférico, 4. Scara y 5. Angular.
+Realizar la asignación de sistemas coordenados para cada articulación, obtener los parámetros DH y calcular la MTH final de los siguientes cinco tipos de robots: 1. Cartesiano, 2. Cilíndrico, 3. Esférico, 4. Scara y 5. Angular.
 
 ![Ejercicios](Imagenes/image-13.png)
