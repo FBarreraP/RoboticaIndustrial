@@ -1,4 +1,4 @@
-<h1>Aula 9</h1>
+<h1>Aula 23</h1>
 
 Esta clase consiste en comprender y analizar la cinemática inversa de dos robots 3R, así como las rutas y las trayectorias con perfil de velocidad trapezoidal.
 
