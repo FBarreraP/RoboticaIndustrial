@@ -32,7 +32,7 @@ $$𝜃_1=𝛼−∅$$
 
 <h3>Theta 3</h3>
 
-$$𝜃_3=𝛽−𝜃_1−𝜃_2$$
+$$𝜃_3=𝜌−𝜃_1−𝜃_2$$
 
 Siendo que $𝛽$ es el ángulo escogido para la rotación de la muñeca con respecto al eje horizontal.
 
