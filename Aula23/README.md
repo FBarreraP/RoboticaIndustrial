@@ -6,9 +6,9 @@ Esta clase consiste en comprender y analizar la cinemática inversa de dos robot
 
 ![3R planar](image-8.png)
 
-$$e=𝑃_𝑥−𝑙_3 \cdot cos⁡𝛽$$
+$$e=𝑃_𝑥−𝑙_3 \cdot cos⁡𝜌$$
 
-$$c=𝑃_𝑦−𝑙_3 \cdot 𝑠𝑒𝑛⁡𝛽$$
+$$c=𝑃_𝑦−𝑙_3 \cdot 𝑠𝑒𝑛⁡𝜌$$
 
 $𝜃_2$ y $𝜃_1$ son obtenidos a partir del análisis de la cinemática inversa del 2R
 
