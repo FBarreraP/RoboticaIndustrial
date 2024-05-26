@@ -34,7 +34,7 @@ $$𝜃_1=𝛼−∅$$
 
 $$𝜃_3=𝜌−𝜃_1−𝜃_2$$
 
-Siendo que $𝛽$ es el ángulo escogido para la rotación de la muñeca con respecto al eje horizontal.
+Siendo que $𝜌$ es el ángulo escogido para la rotación de la muñeca con respecto al eje horizontal.
 
 ```matlab
 %% Robot 3R (planar)
@@ -50,22 +50,22 @@ l3 = 10;
 % Cinemática inversa
 Px = 27.071;
 Py = 7.071;
-beta = deg2rad(45)
+ro = deg2rad(45)
 
 %Px = 7.739;
 %Py = 22.885;
-%beta = deg2rad(95.2)
+%ro = deg2rad(95.2)
 
-m = Px - l3*round(cos(beta),4)
-n = Py - l3*round(sin(beta),4)
+e = Px - l3*round(cos(ro),4)
+c = Py - l3*round(sin(ro),4)
 % Theta 2
-b = sqrt(m^2+n^2)
+b = sqrt(e^2+c^2)
 cos_theta2 = (b^2-l2^2-l1^2)/(2*l1*l2);
 sen_theta2 = sqrt(1-(cos_theta2)^2);
 theta2 = atan2(sen_theta2, cos_theta2);
 fprintf('theta 2 = %.4f \n',rad2deg(theta2));
 % Theta 1
-alpha = atan2(n,m);
+alpha = atan2(c,e);
 phi = atan2(l2*sen_theta2, l1+l2*cos_theta2);
 theta1 = alpha - phi;
 if theta1 <= -pi
@@ -73,7 +73,7 @@ if theta1 <= -pi
 end
 fprintf('theta 1 = %.4f \n',rad2deg(theta1));
 %Theta 3
-theta3 = beta - theta1 - theta2;
+theta3 = ro - theta1 - theta2;
 fprintf('theta 3 = %.4f \n',rad2deg(theta3));
 %
 
