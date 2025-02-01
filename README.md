@@ -1,7 +1,7 @@
 <h1 align="center">Profesor: MSc. Fabián Barrera Prieto 👨‍🏫<br>
 Materia: Robótica industrial 🦾<br>
 Universidad: ECCI 🏫<br>
-Año: 2024 📅</h1><br>
+Año: 2025 📅</h1><br>
 
 El curso de robótica industrial está enfocado al estudio y desarrollo de brazos manipuladores teniendo en cuenta las cinemáticas directas e inversas de los robots convencionales (cartesiano, SCARA, esférico, cilíndrico, antropomórfico o angular).
 
@@ -13,166 +13,134 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 
 <h3>TEMAS 🤓</h3>
 
-<h4>Primer corte 5BM</h4>
+<h4>Primer corte</h4>
 
 <table>
 	<tr>
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>31/01/2024</td> <td>2<br>2</td> <td>1<br>2</td> <td>1</td> <td>Presentación de la materia<br>Morfología de los robots y diagramas cinemáticos</td>
+		<td>04/02/2025</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación de la materia</td>
 	</tr>
 	<tr>
-		<td>07/02/2024</td> <td>2<br>2</td> <td>3<br>4</td> <td>2</td> <td>Traslación y rotación de un sistema coordenado<br>Matriz de transformación homogénea</td>
+		<td>06/02/2025</td> <td>2</td> <td>2</td> <td>1</td> <td>Morfología de los robots y diagramas cinemáticos</td>
 	</tr>
 	<tr>
-		<td>14/02/2024</td> <td>2<br>2</td> <td>5<br>6</td> <td>3</td> <td>Máquina virtual UR Sim (UR Academy) y Simulación Matlab – PIC (Proteus)<br>Desarrollo de Laboratorio</td>
+		<td>11/02/2025</td> <td>2</td> <td>3</td> <td>2</td> <td>Traslación y rotación de un sistema coordenado</td>
+	</tr>
+	<tr>
+		<td>13/02/2025</td> <td>2</td> <td>4</td> <td>2</td> <td>Matriz de transformación homogénea</td>
+	</tr>
+	<tr>
+		<td>18/02/2025</td> <td>2</td> <td>5</td> <td>3</td> <td>Simulación Matlab – PIC (Proteus)</td>
+	</tr>
+	<tr>
+		<td>20/02/2025</td> <td>2</td> <td>6</td> <td>3</td> <td>Desarrollo y/o entrega de laboratorio</td>
 	</tr>
     <tr>
-		<td>21/02/2024</td> <td>2<br>2</td> <td>7<br>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
+		<td>25/02/2025</td> <td>2</td> <td>7</td> <td>4</td> <td>Desarrollo y/o entrega de laboratorio</td>
 	</tr>
 	<tr>
-		<td>28/02/2024</td> <td>2<br>2</td> <td>9<br>10</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
-	</tr><!--semana de parciales del primer corte--><!--semana de registro de notas del primer corte-->
+		<td>27/02/2025</td> <td>2</td> <td>8</td> <td>4</td> <td>Desarrollo y/o entrega de laboratorio</td>
+	</tr>
+	<tr>
+		<td>04/03/2025</td> <td>2</td> <td>9</td> <td>5</td> <td>Parcial primer corte</td>
+	</tr><!--semana de parciales del primer corte-->
+	<tr>
+		<td>06/03/2025</td> <td>2</td> <td>10</td> <td>5</td> <td>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
+	</tr><!--semana de registro de notas del primer corte-->
 
 </table>
 
-<h4>Primer corte 5AM</h4>
+<h4>Segundo corte</h4>
 
 <table>
 	<tr>
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>01/02/2024</td> <td>2<br>2</td> <td>1<br>2</td> <td>1</td> <td>Presentación de la materia<br>Morfología de los robots y diagramas cinemáticos</td>
+		<td>11/03/2025</td> <td>2</td> <td>11</td> <td>6</td> <td>Propuesta de proyecto</td>
 	</tr>
 	<tr>
-		<td>08/02/2024</td> <td>2<br>2</td> <td>3<br>4</td> <td>2</td> <td>Traslación y rotación de un sistema coordenado<br>Matriz de transformación homogénea</td>
+		<td>13/03/2025</td> <td>2</td> <td>12</td> <td>6</td> <td>GUI Matlab</td>
 	</tr>
 	<tr>
-		<td>15/02/2024</td> <td>2<br>2</td> <td>5<br>6</td> <td>3</td> <td>Máquina virtual UR Sim (UR Academy) y Simulación Matlab – PIC (Proteus)<br>Desarrollo de Laboratorio</td>
+		<td>18/03/2025</td> <td>2</td> <td>13</td> <td>7</td> <td>Introducción a la cinemática directa</td>
+	</tr>
+	<tr>
+		<td>20/03/2025</td> <td>2</td> <td>14</td> <td>7</td> <td>Paso 1 DH (asignación de sistemas coordenados)</td>
+	</tr>
+	<tr>
+		<td>25/03/2025</td> <td>2</td> <td>15</td> <td>8</td> <td>Paso 2 DH (tabla DH)</td>
+	</tr>
+	<tr>
+		<td>27/03/2025</td> <td>2</td> <td>16</td> <td>8</td> <td>Paso 3 DH (matriz MTH (Peter Corke))</td>
 	</tr>
     <tr>
-		<td>22/02/2024</td> <td>2<br>2</td> <td>7<br>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
+		<td>01/04/2025</td> <td>2</td> <td>17</td> <td>9</td> <td>Desarrollo y/o entrega de laboratorio</td>
 	</tr>
-	<tr>
-		<td>29/02/2024</td> <td>2<br>2</td> <td>9<br>10</td> <td>5</td> <td>Parcial primer corte<br>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
-	</tr><!--semana de parciales del primer corte--><!--semana de registro de notas del primer corte-->
+    <tr>
+		<td>03/04/2025</td> <td>2</td> <td>18</td> <td>9</td> <td>Desarrollo y/o entrega de laboratorio</td>
+	</tr>    
+    <tr>
+		<td>08/04/2025</td> <td>2</td> <td>19</td> <td>10</td> <td>Parcial segundo corte</td>
+	</tr><!--semana de parciales del segundo corte-->
+    <tr>
+		<td>10/04/2025</td> <td>2</td> <td>20</td> <td>10</td> <td>>Retroalimentación del parcial segundo corte y entrega de notas segundo corte</td>
+	</tr><!--semana de registro de notas del segundo corte-->
 
 </table>
 
-<h4>Segundo corte 5BM</h4>
+<h4>Tercer corte</h4>
 
 <table>
 	<tr>
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>06/03/2024</td> <td>2<br>2</td> <td>11<br>12</td> <td>6</td> <td>Propuesta de proyecto<br>GUI Matlab</td>
+		<td>15/04/2025<br>17/04/2025</td> <td></td> <td></td> <td></td> <td>SEMANA SANTA</td>
 	</tr>
 	<tr>
-		<td>13/03/2024</td> <td>2<br>2</td> <td>13<br>14</td> <td>7</td> <td>Introducción a la cinemática directa<br>Paso 1 DH (asignación de sistemas coordenados)</td>
+		<td>17/04/2025</td> <td>2</td> <td>21</td> <td>11</td> <td>Avance de proyecto</td>
 	</tr>
 	<tr>
-		<td>20/03/2024</td> <td>2<br>2</td> <td>15<br>16</td> <td>8</td> <td>Paso 2 DH (tabla DH)<br>Paso 3 DH (matriz MTH (Peter Corke))</td>
-	</tr>
-    <tr>
-		<td>27/03/2024</td> <td></td> <td></td> <td></td> <td>SEMANA SANTA</td>
-	</tr>
-    <tr>
-		<td>03/04/2024</td> <td>2<br>2</td> <td>17<br>18</td> <td>9</td> <td>Desarrollo de Laboratorio</td>
-	</tr>
-    <tr>
-		<td>10/04/2024</td> <td>2<br>2</td> <td>19<br>20</td> <td>10</td> <td>Parcial segundo corte<br>Retroalimentación del parcial segundo corte y entrega de notas segundo corte</td>
-	</tr><!--semana de parciales del segundo corte--><!--semana de registro de notas del segundo corte-->
-
-</table>
-
-<h4>Segundo corte 5AM</h4>
-
-<table>
-	<tr>
-		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
+		<td>17/04/2025</td> <td>2</td> <td>22</td> <td>11</td> <td>Introducción a la cinemática Inversa y robot 2R (planar)</td>
 	</tr>
 	<tr>
-		<td>07/03/2024</td> <td>2<br>2</td> <td>11<br>12</td> <td>6</td> <td>Propuesta de proyecto<br>GUI Matlab</td>
+		<td>24/04/2025</td> <td>2</td> <td>23</td> <td>12</td> <td>Cinemática Inversa 3R y trayectorias del robot 3R</td>
 	</tr>
 	<tr>
-		<td>14/03/2024</td> <td>2<br>2</td> <td>13<br>14</td> <td>7</td> <td>Introducción a la cinemática directa<br>Paso 1 DH (asignación de sistemas coordenados)</td>
-	</tr>
-	<tr>
-		<td>21/03/2024</td> <td>2<br>2</td> <td>15<br>16</td> <td>8</td> <td>Paso 2 DH (tabla DH)<br>Paso 3 DH (matriz MTH (Peter Corke))</td>
+		<td>24/04/2025</td> <td>2</td> <td>24</td> <td>12</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
 	</tr>
     <tr>
-		<td>28/03/2024</td> <td></td> <td></td> <td></td> <td>SEMANA SANTA</td>
+		<td>01/05/2025</td> <td>2</td> <td>25</td> <td>13</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
 	</tr>
     <tr>
-		<td>04/04/2024</td> <td>2<br>2</td> <td>17<br>18</td> <td>9</td> <td>Desarrollo de Laboratorio</td>
+		<td>08/05/2025</td> <td>2</td> <td>26</td> <td>13</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
 	</tr>
     <tr>
-		<td>11/04/2024</td> <td>2<br>2</td> <td>19<br>20</td> <td>10</td> <td>Parcial segundo corte<br>Retroalimentación del parcial segundo corte y entrega de notas segundo corte</td>
-	</tr><!--semana de parciales del segundo corte--><!--semana de registro de notas del segundo corte-->
-
-</table>
-
-<h4>Tercer corte 5BM</h4>
-
-<table>
-	<tr>
-		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
-	</tr>
-	<tr>
-		<td>17/04/2024</td> <td>2<br>2</td> <td>21<br>22</td> <td>11</td> <td>Avance de proyecto<br>Introducción a la cinemática Inversa y 2R</td>
-	</tr>
-	<tr>
-		<td>24/04/2024</td> <td>2<br>2</td> <td>23<br>24</td> <td>12</td> <td>Cinemática Inversa 3R y trayectorias del robot 3R<br>Desarrollo de Laboratorio y proyecto</td>
+		<td>08/05/2025</td> <td>2</td> <td>27</td> <td>14</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
 	</tr>
     <tr>
-		<td>01/05/2024</td> <td>2<br>2</td> <td>25<br>26</td> <td>13</td> <td>FESTIVO</td>
+		<td>08/05/2025</td> <td>2</td> <td>28</td> <td>14</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
+	</tr>
+	 <tr>
+		<td>08/05/2025</td> <td>2</td> <td>29</td> <td>15</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
 	</tr>
     <tr>
-		<td>08/05/2024</td> <td>2<br>2</td> <td>27<br>28</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
+		<td>08/05/2025</td> <td>2</td> <td>30</td> <td>15</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
 	</tr>
     <tr>
-		<td>15/05/2024</td> <td>2<br>2</td> <td>29<br>30</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>22/05/2024</td> <td>2<br>2</td> <td>31<br>32</td> <td>16</td> <td>Examen final<br>Entrega de proyecto</td>
+		<td>22/05/2025</td> <td>2</td> <td>31</td> <td>16</td> <td>Examen final</td>
 	</tr><!--Finalización de clases-->
-
-</table>
-
-<h4>Tercer corte 5AM</h4>
-
-<table>
-	<tr>
-		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
-	</tr>
-	<tr>
-		<td>18/04/2024</td> <td>2<br>2</td> <td>21<br>22</td> <td>11</td> <td>Avance de proyecto<br>Introducción a la cinemática Inversa y 2R</td>
-	</tr>
-	<tr>
-		<td>25/04/2024</td> <td>2<br>2</td> <td>23<br>24</td> <td>12</td> <td>Cinemática Inversa 3R y trayectorias del robot 3R<br>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
     <tr>
-		<td>02/05/2024</td> <td>2<br>2</td> <td>25<br>26</td> <td>13</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>09/05/2024</td> <td>2<br>2</td> <td>27<br>28</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>16/05/2024</td> <td>2<br>2</td> <td>29<br>30</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
-	</tr>
-    <tr>
-		<td>23/05/2024</td> <td>2<br>2</td> <td>31<br>32</td> <td>16</td> <td>Examen final<br>Entrega de proyecto</td>
+		<td>22/05/2025</td> <td>2</td> <td>32</td> <td>16</td> <td>Retroalimentación del examen final y entrega de notas tercer corte</td>
 	</tr><!--Finalización de clases-->
 
 </table>
 
 <h3>MÉTODOS DE EVALUACIÓN ✍️</h3>
 
-<h4>5BM</h4>
-
 <table>
 	<tr>
 		<td>Corte</td>
@@ -185,91 +153,40 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td rowspan="2">Primer (20%)</td>
 		<td>Parcial</td>
 		<td>10%</td>
-		<td>28/02/2024</td>
+		<td>28/02/2025</td>
 		<td rowspan="7">Presencial</td>
 	</tr>
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>10%</td>
-		<td>14/02/2024<br>21/02/2024<br>21/02/2024</td>
+		<td>14/02/2025<br>21/02/2025<br>21/02/2025</td>
 	</tr>
 	<tr>
 		<td rowspan="2">Segundo (30%)</td>
 		<td>Parcial</td>
 		<td>15%</td>
-		<td>10/04/2024</td>
+		<td>10/04/2025</td>
 	</tr>
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>15%</td>
-		<td>03/04/2024<br>03/04/2024</td>
+		<td>03/04/2025<br>03/04/2025</td>
 	</tr>
 	<tr>
 		<td rowspan="3">Tercer (50%)</td>
 		<td>Examen final</td>
 		<td>15%</td>
-		<td>22/05/2024</td>
+		<td>22/05/2025</td>
 	</tr>
 	<tr>
 		<td>Quices y/o laboratorio</td>
 		<td>15%</td>
-		<td>24/04/2024<br>08/05/2024<br>08/05/2024<br>15/05/2024<br>15/05/2024</td>
+		<td>24/04/2025<br>08/05/2025<br>08/05/2025<br>15/05/2025<br>15/05/2025</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
 		<td>20%</td>
-		<td>22/05/2024</td>
-	</tr>
-</table>
-
-<h4>5AM</h4>
-
-<table>
-	<tr>
-		<td>Corte</td>
-		<td>Actividad</td>
-		<td>Porcentaje 💯</td>
-		<td>Fecha</td>
-		<td>Metodología</td>
-	</tr>
-	<tr>
-		<td rowspan="2">Primer (20%)</td>
-		<td>Parcial</td>
-		<td>10%</td>
-		<td>29/02/2024</td>
-		<td rowspan="7">Presencial</td>
-	</tr>
-	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>10%</td>
-		<td>15/02/2024<br>22/02/2024<br>22/02/2024</td>
-	</tr>
-	<tr>
-		<td rowspan="2">Segundo (30%)</td>
-		<td>Parcial</td>
-		<td>15%</td>
-		<td>11/04/2024</td>
-	</tr>
-	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>15%</td>
-		<td>04/04/2024<br>04/04/2024</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Tercer (50%)</td>
-		<td>Examen final</td>
-		<td>15%</td>
-		<td>23/05/2024</td>
-	</tr>
-	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>15%</td>
-		<td>25/04/2024<br>09/05/2024<br>09/05/2024<br>16/05/2024<br>16/05/2024</td>
-	</tr>
-    <tr>
-		<td>Proyecto</td>
-		<td>20%</td>
-		<td>23/05/2024</td>
+		<td>22/05/2025</td>
 	</tr>
 </table>
 
