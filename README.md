@@ -196,7 +196,7 @@ Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
 
 <h4>Observaciones de clase</h4>
 	<ul>
-		<li> Inicio de clases: Treinta (30) minutos después de la hora inicial definida de la clase y el control de asistencia se realiza a cada inicio de clase ⌚</li>
+		<li> Inicio de clases: Treinta (15) minutos después de la hora inicial definida de la clase y el control de asistencia se realiza a cada inicio de clase ⌚</li>
 		<li> Fin de clases: Quince (15) minutos antes de la hora final definida de la clase ⏱️</li>
 		<li> Respeto en clase 🤝</li>
 		<li> No presto mi computador para presentar laboratorios, talleres y/o proyectos 🤦‍♂️</li>
