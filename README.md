@@ -104,10 +104,10 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>15/10/2026</td> <td>2</td> <td>22</td> <td>11</td> <td>Introducción a la cinemática Inversa y robot 2R (planar)</td>
 	</tr>
 	<tr>
-		<td>20/10/2026</td> <td>2</td> <td>23</td> <td>12</td> <td>Cinemática Inversa 3R y trayectorias del robot 3R</td>
+		<td>20/10/2026</td> <td>2</td> <td>23</td> <td>12</td> <td>Cinemática Inversa 3R</td>
 	</tr>
 	<tr>
-		<td>22/10/2026</td> <td>2</td> <td>24</td> <td>12</td> <td>FESTIVO</td>
+		<td>22/10/2026</td> <td>2</td> <td>24</td> <td>12</td> <td>Trayectorias del robot 3R</td>
 	</tr>
     <tr>
 		<td>27/10/2026</td> <td>2</td> <td>25</td> <td>13</td> <td>Desarrollo y/o entrega de laboratorio y/o proyecto</td>
@@ -140,50 +140,28 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 
 <table>
 	<tr>
-		<td>Corte</td>
-		<td>Actividad</td>
-		<td>Porcentaje 💯</td>
-		<td>Fecha</td>
-		<td>Metodología</td>
+		<td>Corte</td> <td>Actividad</td> <td>Porcentaje 💯</td> <td>Fecha</td>	<td>Metodología</td>
 	</tr>
 	<tr>
-		<td rowspan="2">Primer (20%)</td>
-		<td>Parcial</td>
-		<td>10%</td>
-		<td>04/03/2026</td>
-		<td rowspan="7">Presencial</td>
+		<td rowspan="2">Primer (20%)</td> <td>Parcial</td> <td>10%</td>	<td>01/09/2026</td>	<td rowspan="7">Presencial</td>
 	</tr>
 	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>10%</td>
-		<td>20/02/2026<br>25/02/2026<br>27/02/2026</td>
+		<td>Quices y/o laboratorio</td> <td>10%</td> <td>20/08/2026<br>25/08/2026<br>27/08/2026</td>
 	</tr>
 	<tr>
-		<td rowspan="2">Segundo (30%)</td>
-		<td>Parcial</td>
-		<td>15%</td>
-		<td>08/04/2026</td>
+		<td rowspan="2">Segundo (30%)</td> <td>Parcial</td>	<td>15%</td> <td>06/10/2026</td>
 	</tr>
 	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>15%</td>
-		<td>01/04/2026<br>03/04/2026</td>
+		<td>Quices y/o laboratorio</td>	<td>15%</td> <td>29/09/2026<br>01/10/2026</td>
 	</tr>
 	<tr>
-		<td rowspan="3">Tercer (50%)</td>
-		<td>Examen final</td>
-		<td>15%</td>
-		<td>27/05/2026</td>
+		<td rowspan="3">Tercer (50%)</td> <td>Examen final</td>	<td>15%</td> <td>17/11/2026</td>
 	</tr>
 	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>15%</td>
-		<td>06/05/2026<br>08/05/2026<br>13/05/2026<br>15/05/2026<br>20/05/2026<br>22/05/2026</td>
+		<td>Quices y/o laboratorio</td>	<td>15%</td> <td>27/10/2026<br>29/10/2026<br>03/11/2026<br>05/11/2026<br>10/11/2026<br>12/11/2026</td>
 	</tr>
     <tr>
-		<td>Proyecto</td>
-		<td>20%</td>
-		<td>06/05/2026<br>08/05/2026<br>13/05/2026<br>15/05/2026<br>20/05/2026<br>22/05/2026</td>
+		<td>Proyecto</td> <td>20%</td> <td>27/10/2026<br>29/10/2026<br>03/11/2026<br>05/11/2026<br>10/11/2026<br>12/11/2026</td>
 	</tr>
 </table>
 
