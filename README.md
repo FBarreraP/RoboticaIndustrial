@@ -215,7 +215,11 @@ Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
 	<li> Matlab</li>
     <li> UR Sim</li>
 	<li> PIC o Arduino</li>
-	<img src="https://www.servotronik.com.co/wp-content/uploads/2019/07/PIC18F4550-1.jpg" alt="PIC18F4550" caption="Hola"/>
+	<div align="center">
+		<img src="image-5.png" width="500" alt="PIC18F4550"/>
+		<br>
+		<figcaption>Fuente: https://robukits.in/product/742/pic18f4550-microcontroller-high-performance-8-bit-mcu-with-usb-interface</figcaption>
+	</div>
     <img src="https://www.makerhero.com/wp-content/uploads/2017/07/1AC01-9-1-min.jpeg" alt="Arduino" caption="Hola"/>
 	<li> Brazo robótico 5 GDL</li>
 	<img src="https://yorobotics.co/wp-content/uploads/2022/10/BRAZO-ROBOTICO-V2.0-MEJORADO.jpg" alt="brazo robótico 5 GDL" caption="Hola"/>
@@ -223,12 +227,20 @@ Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
     <img src="https://cdn.shopify.com/s/files/1/0069/0028/5529/files/Servos_fb55bae1-aef3-4bd6-bf0f-f2eff21c849a_large.jpg?v=1565803072" alt="servomotores" caption="Hola"/>
     <li> Fuentes de alimentación</li>
     <img src="https://cdnx.jumpseller.com/mactornica/image/9804941/1.jpg?1653696069" alt="Fuente AMS1117" caption="Hola"/>
-    <li> Multimetro</li>
-    <img src="https://electronicasannicolas.com.co/wp-content/uploads/2022/03/MULTIMETRO-DIGITAL-UT33C-UNIT-3641.png" alt="Multimetro UNI-T" caption="Hola"/>
+    <li> Multímetro</li>
+	<div align="center">
+		<img src="image-2.png" width="500" alt="Multímetro"/>
+		<br>
+		<figcaption>Fuente: https://radiomecano.com.ar/Instrumentos-de-Medicion/90-0223260_TESTER-UNI-T-UT-33C-DIGITAL-CTEMPERATURA.html</figcaption>
+	</div>
     <li> Leds, resistencias, pulsadores, cables, protoboard</li>
     <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR9gkrJHsEK9MCYNnJTZklwsNtW58ZzmrtdPMma9dXKXkLdYbt1PkHeGMi5cwDLLlRiOng2ozwdsB60QtZNCQF4hc3WUnPT6rx9HmCUAt1KuATjyJY9bNNWRA&usqp=CAE" alt="kit de protoboard" caption="Hola"/>
     <li> Potenciómetro</li>
-    <img src="https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/p/o/potenci_metro_linear_-_1m_-_l20_2_.jpg" alt="potenciometro" caption="Hola"/>
+    <div align="center">
+		<img src="image-1.png" alt="Potenciómetro" width="400"/>
+		<br>
+		<figcaption>Fuente: https://www.mercadolivre.com.br/potenciometro-linear-1m--l20/up/MLBU1478983095</figcaption>
+	</div>
     <li> Fotoresistencia</li>
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZMUgeeo_cD2X8ee0ldjF5oU2SK4IW-KIQ3qScgyX5VK-_nQKHIE7Nib3CWr0sns62JKbOmdY8DN4W7E6B6e69yUVtN9VqbfuQeoyVlv2DGlseWsc8h-ZgHh7Zn-HDrUTszr-FQdiEFW7nGhOPSjDTN6egELeqlyI8VwM_8mrX0z7WUQcaFnW_AAHh5Q/s499/ldr-5mm-fvml.jpg" alt="fotoresistencia" caption="Hola"/>
     <li> Display LCD 16x2 o 16x4 o 20x2 o 20x4</li>
